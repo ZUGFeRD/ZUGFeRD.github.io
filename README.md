@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## ZUGFeRD
 
-You can use the [editor on GitHub](https://github.com/ZUGFeRD/ZUGFeRD.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[ZUGFeRD](http://www.ferd-net.de/front_content.php?idcat=255&lang=4) is a open european PDF invoice metadata standard. ZUGFeRD invoices look like ordinary PDFs but they contain a XML file with amounts, taxes, due dates, sender and recipient and can e.g. be parsed and paid automatically.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### This page
 
-### Markdown
+ZUGFeRD.org is the open source incubator and communication hub for and around ZUGFeRD.
+Specifically for the people around ZUGFeRD there is the [ZUGFeRD-community](ZUGFeRD-community), which even has a forum. Unfortunately for open source developers the human language is very german there :-(
+We do therefore employ our own, english [Forum](https://groups.google.com/forum/#!forum/zugferd). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Projects
 
-```markdown
-Syntax highlighted code block
+* The [Corpus](https://github.com/ZUGFeRD/corpus) is a collection of real, sample and test ZUGFeRD invoices, some with artificial errors. They serve as test cases for readers and validators. Contribute by adding samples and (privacy-not-infringing) real live examples of your ZUGFeRD implementation!
+* There is a [Plugin](https://github.com/ZUGFeRD/hibiscus) plugin for the open source online banking software [Hibiscus](https://www.willuhn.de/products/hibiscus/) which was a proof-of-concept for the [ZUGFeRD developer days](http://www.zugferd-entwicklertage.de) 2016 
+* We're trying to find out if and how we can contribute a ZUGFeRD plugin to the great [VeraPDF](www.verapdf.org) PDF validator in the [ZUV](https://github.com/ZUGFeRD/ZUV) ZUgferd+Verapdf project
+* Additionally, we are evaluating if and how the [XMPP](https://en.wikipedia.org/wiki/XMPP) standard can potentially be used as a protocol layer for ZUGFeRD invoices
 
-# Header 1
-## Header 2
-### Header 3
+### Not on this page
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZUGFeRD/ZUGFeRD.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Projects like [Konik](http://konik.io) and [Mustang](http://www.mustangproject.org/) are either already too big or simply started before this initiative. If you know other open source projects please [let us know](https://groups.google.com/forum/#!forum/zugferd). Kudos go to great PDF related open source projects like Apache [PDFBox](https://pdfbox.apache.org/), [itext](https://github.com/itext) and of course [GhostScript](https://www.ghostscript.com/).
