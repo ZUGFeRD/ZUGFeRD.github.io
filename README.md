@@ -4,8 +4,9 @@
 
 ### This page
 
-ZUGFeRD.org is the open source incubator and communication hub for and around ZUGFeRD.
-Specifically for the people around ZUGFeRD there is the [ZUGFeRD-community](ZUGFeRD-community), which even has a forum. Unfortunately for open source developers the human language is very german there :-(
+ZUGFeRD.org is the incubator and communication hub for and around ZUGFeRD open source *projects*.
+Here are [https://github.com/ZUGFeRD](the according repos).
+For *people* around ZUGFeRD there is the [ZUGFeRD-community](http://www.zugferd-community.net), which even has a forum. Unfortunately for open source developers the human language is very german there :-(
 We do therefore employ our own, english [Forum](https://groups.google.com/forum/#!forum/zugferd). 
 
 ### Projects
