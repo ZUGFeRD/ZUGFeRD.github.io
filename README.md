@@ -11,6 +11,7 @@ We do therefore employ our own, english [Forum](https://groups.google.com/forum/
 
 ### Projects
 
+* We organize the bi-monthly ZUGFeRD Open Source Online Conference [ZOSOCON](https://github.com/ZUGFeRD/ZOSOCON), i.e. webinar (first one on Friday, May 27, 2017)
 * The [Corpus](https://github.com/ZUGFeRD/corpus) is a collection of real, sample and test ZUGFeRD invoices, some with artificial errors. They serve as test cases for readers and validators. Contribute by adding samples and (privacy-not-infringing) real live examples of your ZUGFeRD implementation!
 * There is a [Plugin](https://github.com/ZUGFeRD/hibiscus) plugin for the open source online banking software [Hibiscus](https://www.willuhn.de/products/hibiscus/) which was a proof-of-concept for the [ZUGFeRD developer days](http://www.zugferd-entwicklertage.de) 2016 
 * We're trying to find out if and how we can contribute a ZUGFeRD plugin to the great [VeraPDF](www.verapdf.org) PDF validator in the [ZUV](https://github.com/ZUGFeRD/ZUV) ZUgferd+Verapdf project
