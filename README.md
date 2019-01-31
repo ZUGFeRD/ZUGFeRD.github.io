@@ -11,7 +11,7 @@ We do therefore employ our own, english [Forum](https://groups.google.com/forum/
 
 ### Projects
 
-* There is a curated list of ZUGFeRD/Factur-X [Open-Source] projects.  If you know other open source projects please [let us know](https://groups.google.com/forum/#!forum/zugferd). Some repos also live here:
+* There is a curated list of ZUGFeRD/Factur-X [Open-Source](open-source.md) projects.  If you know other open source projects please [let us know](https://groups.google.com/forum/#!forum/zugferd). Some repos also live here:
 
 
 * The [Corpus](https://github.com/ZUGFeRD/corpus) is a collection of real, sample and test ZUGFeRD invoices, some with artificial errors. They serve as test cases for readers and validators. Contribute by adding samples and (privacy-not-infringing) real live examples of your ZUGFeRD implementation!
