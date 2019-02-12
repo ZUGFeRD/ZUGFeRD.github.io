@@ -29,6 +29,7 @@
 ### Other tools
 #### Display
 * The [XRechnung XSLT](https://github.com/itplr-kosit/xrechnung-visualization/releases) can be used to convert ZUGFeRD/Factur-X to HTML
+* Open-source onlinebanking with ZUGFeRD: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
 
 #### Miscellaneous
 * There is a interesting [parser](https://github.com/svanteschubert/en16931-data-extractor) for the EN16931 specification documents 
