@@ -1,3 +1,5 @@
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/ZUGFeRD/community)
+
 ## ZUGFeRD
 
 [ZUGFeRD](http://www.ferd-net.de/front_content.php?idcat=255&lang=4) and Factur-X is a open european PDF invoice metadata standard. ZUGFeRD invoices embed a XML structure into PDF and look and behave like ordinary PDFs but can also be parsed and paid automatically. ZUGFeRD version 2 is supposed to match Factur-X version 1.
