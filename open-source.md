@@ -16,7 +16,7 @@
 * [Ghostscript](https://www.ghostscript.com/) can be used to create PDF/A files from other documents and ordinary PDF
 * [LibreOffice](https://www.libreoffice.org/) is a open source office suite with good PDF/A-1 export
 * [iText RUPS](https://github.com/itext/rups/releases) can be used, along with a good hex editor to inspect the PDF internal structure
-
+* [MuPDF](https://mupdf.com/) for windows and linux, mutools show can display simple internal structures
 
 
 ### Validators
