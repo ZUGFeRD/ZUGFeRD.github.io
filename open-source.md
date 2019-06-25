@@ -29,6 +29,7 @@
 ### Other tools
 #### ZUGFeRD/Factur-X Creating
 * The open source accounting application [Fakturama](https://www.fakturama.info/)
+* Open source OCR/invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
 #### ZUGFeRD/Factur-X Consuming
 * Open-source homebanking application: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
 #### Display
