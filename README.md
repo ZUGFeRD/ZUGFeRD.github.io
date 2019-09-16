@@ -5,10 +5,9 @@
 
 ### This page
 
-ZUGFeRD.org is the incubator and communication hub for and around ZUGFeRD open source *projects*. Others may also be [around](open-source.md). 
+ZUGFeRD.org is the incubator and communication hub for and around ZUGFeRD/Factur-X open source *projects*. Others may also be [around](open-source.md). 
 Our [repos](https://github.com/ZUGFeRD).
-For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-community](http://www.zugferd-community.net), which even has a forum. Unfortunately for open source developers the human language is very german there :-(
-We do therefore employ our own, english [Forum](https://groups.google.com/forum/#!forum/zugferd). 
+For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-community](http://www.zugferd-community.net), which even has a forum. For an english forum please refer to the [ZUGFeRD Google Group](https://groups.google.com/forum/#!forum/zugferd). 
 
 ## ZUGFeRD/Factur-X Open Source Software
 
