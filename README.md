@@ -5,7 +5,7 @@
 
 ### This page
 
-ZUGFeRD.org is the incubator and communication hub for and around ZUGFeRD/Factur-X open source *projects*. Others may also be [around](open-source.md). 
+ZUGFeRD.org is the incubator and communication hub for and around ZUGFeRD/Factur-X open source *projects*. Others may also be [around](open-source.md).
 Our [repos](https://github.com/ZUGFeRD).
 For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-community](http://www.zugferd-community.net), which even has a forum. For an english forum please refer to the [ZUGFeRD Google Group](https://groups.google.com/forum/#!forum/zugferd). 
 
@@ -14,7 +14,7 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 ### Libraries
 
 #### Python
-* [factur-x](https://akretion.com/en/blog/akretion-publishes-an-opensource-factur-x-python-library) is a BSD-licensed library
+* [factur-x](https://github.com/akretion/factur-x) is a BSD-licensed library
 #### PHP
 * @gp has a [factur-x](https://packagist.org/packages/atgp/factur-x) library for PHP
 #### Java
@@ -40,6 +40,8 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 ### Other tools
 #### ZUGFeRD/Factur-X Creating
 * The open source accounting application [Fakturama](https://www.fakturama.info/)
+* [Factur-X extension for LibreOffice](https://github.com/akretion/factur-x-libreoffice-extension) is a LibreOffice extension to generate Factur-X invoices from LibreOffice Calc published under the GPL licence. Watch this [video tutorial](https://www.youtube.com/watch?v=ldD-1W8yIv0).
+* [Odoo](https://www.odoo.com/) is an OpenSource ERP software that has an OpenSource module [account\_invoice\_factur-x](https://github.com/OCA/edi/tree/10.0) to generate Factur-X invoices and another OpenSource module [account\_invoice\_import\_factur-x](https://github.com/OCA/edi/tree/10.0) to import Factur-X invoices.
 * Open source OCR/invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
 #### ZUGFeRD/Factur-X Consuming
 * Open-source homebanking application: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
