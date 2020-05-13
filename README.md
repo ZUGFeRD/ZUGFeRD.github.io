@@ -24,7 +24,7 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 ### PDF tools
 #### Creation
 
-* [Ghostscript](https://www.ghostscript.com/) can be used to create PDF/A files from other documents and ordinary PDF
+* [Ghostscript](https://www.ghostscript.com/) can be used to create PDF/A files from other documents and ordinary PDF and even [complete Factur-X](https://bugs.ghostscript.com/show_bug.cgi?id=696472) files
 * [LibreOffice](https://www.libreoffice.org/) is a open source office suite with good PDF/A-1 export
 * [iText RUPS](https://github.com/itext/rups/releases) can be used, along with a good hex editor to inspect the PDF internal structure, or a Windows-only [alternative](https://github.com/Uzi-Granot/PdfFileAnaylyzer)
 * [MuPDF](https://mupdf.com/) for windows and linux, mutools show can display simple internal structures
