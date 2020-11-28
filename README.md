@@ -50,4 +50,5 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 
 #### Miscellaneous
 * [Additional data](http://4s4u.de/additional_data) is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles) 
+* Philip Helger published some [XSLT to convert UN/CEFACT CII to UBL](https://github.com/phax/en16931-cii2ubl)
 * There is a interesting [parser](https://github.com/svanteschubert/en16931-data-extractor) for the EN16931 specification documents 
