@@ -47,6 +47,7 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * Open-source homebanking application: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
 #### Display
 * The [XRechnung XSLT](https://github.com/itplr-kosit/xrechnung-visualization/releases) can be used to convert ZUGFeRD/Factur-X to HTML
+* There is a [Viewer](https://www.ultramarinviewer.de/) for XRechnung based on these XSLTs
 
 #### Miscellaneous
 * [Additional data](http://4s4u.de/additional_data) is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles) 
