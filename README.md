@@ -29,6 +29,8 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * [iText RUPS](https://github.com/itext/rups/releases) can be used, along with a good hex editor to inspect the PDF internal structure, or a Windows-only [alternative](https://github.com/Uzi-Granot/PdfFileAnaylyzer)
 * [MuPDF](https://mupdf.com/) for windows and linux, mutools show can display simple internal structures
 * https://github.com/naiveHobo/InvoiceNet
+* Open source OCR/invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
+
 
 ### Validators
 * [VeraPDF](http://verapdf.org/), validates PDF-A "only" but very good :-)
@@ -42,7 +44,6 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * The open source accounting application [Fakturama](https://www.fakturama.info/)
 * [Factur-X extension for LibreOffice](https://github.com/akretion/factur-x-libreoffice-extension) is a LibreOffice extension to generate Factur-X invoices from LibreOffice Calc published under the GPL licence. Watch this [video tutorial](https://www.youtube.com/watch?v=ldD-1W8yIv0).
 * [Odoo](https://www.odoo.com/) is an OpenSource ERP software that has an OpenSource module [account\_invoice\_factur-x](https://github.com/OCA/edi/tree/10.0) to generate Factur-X invoices and another OpenSource module [account\_invoice\_import\_factur-x](https://github.com/OCA/edi/tree/10.0) to import Factur-X invoices.
-* Open source OCR/invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
 #### ZUGFeRD/Factur-X Consuming
 * Open-source homebanking application: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
 #### Display
