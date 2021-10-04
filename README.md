@@ -37,7 +37,8 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * The [CEN Schematron](https://github.com/CenPC434/validation/tree/master/cii/schematron) can be used to validate ZUGFeRD/Factur-X XML
 * [Konik](https://konik.io/ZUGFeRD-Validierung/) only ZUGFeRD 1 and now part of a propriary product Zrechnung
 * [FNFE](https://services.fnfe-mpe.org) uses [a odoo plugin](https://github.com/akretion/factur-x-validator) which is based on VeraPDF and the CEN Schematron
-* The new [FerdMC checker](https://validator.zugferd.org/) is based on an outdated version of [ZUV](https://github.com/ZUGFeRD/ZUV/) and embeds VeraPDF and the CEN Schematron as well
+* The new [FerdMC checker](https://validator.zugferd.org/) is based on [Mustang](https://github.com/ZUGFeRD/mustangproject/) and embeds VeraPDF and the CEN Schematron as well
+* Philip Helgers open-sourve-valdator [Phive](https://github.com/phax/phive) can validate almost everything EN16931-y (including XRechnung but not covering PDF)
 
 ### Other tools
 #### ZUGFeRD/Factur-X Creating
@@ -48,7 +49,9 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * Open-source homebanking application: [Hibiscus](https://www.willuhn.de/products/hibiscus/)
 #### Display
 * The [XRechnung XSLT](https://github.com/itplr-kosit/xrechnung-visualization/releases) can be used to convert ZUGFeRD/Factur-X to HTML
-* There is a [Viewer](https://www.ultramarinviewer.de/) for XRechnung based on these XSLTs
+* There is a [freeware viewer](https://www.ultramarinviewer.de/) for XRechnung based on these XSLTs, additionally 
+* there is a [open source cross plattform XRechnung viewer](https://github.com/jcthiele/OpenXRechnungToolbox) as well as 
+* an attempt for a [open source cross plattform multi format viewer](https://quba-viewer.org) (also displaying ZUGFeRD/Factur-X PDF and XML)
 
 #### Miscellaneous
 * [Additional data](http://4s4u.de/additional_data) is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles) 
