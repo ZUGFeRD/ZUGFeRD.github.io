@@ -28,17 +28,19 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * [LibreOffice](https://www.libreoffice.org/) is an open source office suite with good PDF/A-1 export
 * [iText RUPS](https://github.com/itext/rups/releases) can be used, along with a good hex editor to inspect the PDF internal structure, or a Windows-only [alternative](https://github.com/Uzi-Granot/PdfFileAnaylyzer)
 * [MuPDF](https://mupdf.com/) for windows and linux, mutools show can display simple internal structures
-* https://github.com/naiveHobo/InvoiceNet
-* Open source OCR/invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
+* Open source AI/invoice recognition [InvoiceNet](https://github.com/naiveHobo/InvoiceNet)
+* Open source OCR/pattern based invoice recognition [invoice2data](https://github.com/invoice-x/invoice2data/)
 
 
 ### Validators
-* [VeraPDF](http://verapdf.org/), validates PDF-A "only" but very good :-)
+* [VeraPDF](http://verapdf.org/), validates PDF-A,
+* [Exiftool](https://exiftool.org/) allows to quickly check PDF/A meta data,
 * The [CEN Schematron](https://github.com/CenPC434/validation/tree/master/cii/schematron) can be used to validate ZUGFeRD/Factur-X XML
 * [Konik](https://konik.io/ZUGFeRD-Validierung/) only ZUGFeRD 1 and now part of a propriary product Zrechnung
 * [FNFE](https://services.fnfe-mpe.org) uses [a odoo plugin](https://github.com/akretion/factur-x-validator) which is based on VeraPDF and the CEN Schematron
 * The new [FerdMC checker](https://validator.zugferd.org/) is based on [Mustang](https://github.com/ZUGFeRD/mustangproject/) and embeds VeraPDF and the CEN Schematron as well
 * Philip Helgers open-sourve-valdator [Phive](https://github.com/phax/phive) can validate almost everything EN16931-y (including XRechnung but not covering PDF)
+ 
 
 ### Other tools
 #### ZUGFeRD/Factur-X Creating
@@ -51,7 +53,7 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * The [XRechnung XSLT](https://github.com/itplr-kosit/xrechnung-visualization/releases) can be used to convert ZUGFeRD/Factur-X to HTML
 * There is a [freeware viewer](https://www.ultramarinviewer.de/) for XRechnung based on these XSLTs, additionally 
 * there is an [open source cross platform XRechnung viewer](https://github.com/jcthiele/OpenXRechnungToolbox) as well as
-* an attempt for an [open source cross platform multi format viewer](https://quba-viewer.org) (also displaying ZUGFeRD/Factur-X PDF and XML)
+* A [open source cross platform multi format viewer](https://quba-viewer.org) (also displaying ZUGFeRD/Factur-X PDF and XML)
 
 #### Miscellaneous
 * [Additional data](http://4s4u.de/additional_data) is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles) 
