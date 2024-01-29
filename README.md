@@ -59,4 +59,5 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 * [Additional data](http://4s4u.de/additional_data) is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles) 
 * Philip Helger published a [java library to convert UN/CEFACT CII to UBL](https://github.com/phax/en16931-cii2ubl)
 * There is a [OpenXRechnungToolbox](https://github.com/jcthiele/OpenXRechnungToolbox) to visualize and validate XRechnung and Leitweg-IDs
-* There is an interesting [parser](https://github.com/svanteschubert/en16931-data-extractor) for the EN16931 specification documents 
+* There is an interesting [parser](https://github.com/svanteschubert/en16931-data-extractor) for the EN16931 specification documents
+* xpdf has a interesting pdfdetach command line tool https://www.xpdfreader.com/pdfdetach-man.html
