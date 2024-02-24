@@ -20,6 +20,8 @@ For *people* and commercial projects around ZUGFeRD there is the [ZUGFeRD-commun
 #### Java
 * [Konik](https://konik.io/) GPL Java and C# library for ZUGFeRD 1 
 * [Mustang](http://www.mustangproject.org/) is an APL Java library for ZUGFeRD 1 and 2(=Factur-X) and a command-line tool to extract and combine. It also offers a [server](https://github.com/ZUGFeRD/mustangserver) with REST API
+#### .net/ C#
+* [ZUGFeRD-csharp](https://github.com/stephanstapel/ZUGFeRD-csharp) library for .net/ C#
 
 ### PDF tools
 #### Creation
