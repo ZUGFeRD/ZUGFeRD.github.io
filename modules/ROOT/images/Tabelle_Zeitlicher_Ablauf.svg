@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/)
+Copyright © 2024 Andreas Pelekies validool.org
+-->
+
+<svg
+   version="1.1"
+   id="svg1049"
+   width="1280.0126"
+   height="720"
+   viewBox="0 0 1280.0126 720"
+   sodipodi:docname="Tabelle_Zeitlicher_Ablauf.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1053">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1065">
+      <path
+         d="M 0,0.028 H 959.981 V 539.999 H 0 Z"
+         clip-rule="evenodd"
+         id="path1063" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1051"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.5476411"
+     inkscape:cx="640.00627"
+     inkscape:cy="359.90257"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1057">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page1055"
+       width="1280.0126"
+       height="720" />
+  </sodipodi:namedview>
+  <g
+     id="g1057"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,720)">
+    <g
+       id="g1059">
+      <g
+         id="g1061"
+         clip-path="url(#clipPath1065)">
+        <path
+           d="M 0,540 H 959.981 V 0.028 L 0,0.028 Z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1067" />
+        <path
+           d="M 0,540 H 960.009 V 0 H 0 Z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1069" />
+        <path
+           d="M 0,540 H 113.046 V 485.093 H 0 Z"
+           style="fill:#ebebeb;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1071" />
+        <g
+           id="g1073">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,18.794,506.409)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1077"><tspan
+               x="0 11.782419 21.166788 27.257835 31.846104 36.034698 48.104881 56.897732 63.788132"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1075">Def. UStG</tspan></text>
+        </g>
+        <path
+           d="M 113.046,540 H 368.277 V 485.093 H 113.046 Z"
+           style="fill:#ebebeb;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1079" />
+        <g
+           id="g1081">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,144.907,517.209)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1085"><tspan
+               x="0 8.7928495 13.780794 23.165163 33.061115 39.951511 47.145664 57.041615 67.433167 72.309204 80.206779 88.39212 98.879593 108.26396 112.45256 123.03595 132.51625 140.60567 151.09314 161.48468 171.97215 182.36371"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1083">Elektronische Rechnung</tspan></text>
+        </g>
+        <g
+           id="g1087">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,190.998,495.496)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1091"><tspan
+               x="0 9.0966034 13.285197 22.3818 31.478403 40.654942 45.33913 54.435734 63.532337 67.720932 76.609703 88.679886"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1089">&gt; 250,00 EUR</tspan></text>
+        </g>
+        <path
+           d="M 368.277,540 H 959.981 V 485.093 H 368.277 Z"
+           style="fill:#ebebeb;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1093" />
+        <g
+           id="g1095">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,588.898,506.409)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1099"><tspan
+               x="0 8.7928495 18.576895 28.968445 36.945957 43.836353 48.712391 57.697083 67.177376 71.365967 81.949364 91.429649 99.519073 110.00655 120.39809 130.78964 141.27711"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1097">Sonstige Rechnung</tspan></text>
+        </g>
+        <path
+           d="M 0,485.093 H 113.046 V 299.877 H 0 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1101" />
+        <g
+           id="g1103">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,31.096,386.306)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1107"><tspan
+               x="0 11.590575 20.479347 26.154732 35.938774"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1105">Datum</tspan></text>
+        </g>
+        <path
+           d="M 113.046,485.093 H 221.329 V 299.877 H 113.046 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1109" />
+        <g
+           id="g1111">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,133.512,429.704)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1115"><tspan
+               x="0 8.888772 21.774294 30.870897 40.047436 49.144039 58.240643 67.337242"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1113">EN16931 </tspan></text>
+        </g>
+        <g
+           id="g1117">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,132.69,407.991)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1121"><tspan
+               x="0 9.7840443 19.679996 30.071547 36.162594 46.058548 53.252697"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1119">konform</tspan></text>
+        </g>
+        <g
+           id="g1123">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,121.096,386.306)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1127"><tspan
+               x="0 14.787975 18.86466 24.540045 28.72864 38.800449 43.196873 47.5933 51.781895 57.665108 61.853703 73.444275 83.819839"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1125">mit CII / UBL</tspan></text>
+        </g>
+        <g
+           id="g1129">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,121.011,364.592)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1133"><tspan
+               x="0 4.7001781 13.892703 23.676746 32.757362 40.255264 50.135231 59.919277 69.703323 79.583282 88.280212 92.260979"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1131">(XRechnung, </tspan></text>
+        </g>
+        <g
+           id="g1135">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,129.288,342.907)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1139"><tspan
+               x="0 9.0966034 20.687178 32.357689 40.638954 49.62365 59.407692 70.998268"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1137">ZUGFeRD)</tspan></text>
+        </g>
+        <path
+           d="M 221.329,485.093 H 368.277 V 299.877 H 221.329 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1141" />
+        <g
+           id="g1143">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,233.688,441.411)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1147"><tspan
+               x="0 10.983069 21.374619 31.462416 40.942707 48.136856 57.617149 65.514725 69.703323 79.183609 84.059647 93.53994 103.32398 110.3103 117.50445 121.9968"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1145">Anderes elektr. </tspan></text>
+        </g>
+        <g
+           id="g1149">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,261.298,419.613)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1153"><tspan
+               x="0 8.7768631 18.560907 25.755056 41.534225 51.030502 58.016823 62.701015"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1151">Format, </tspan></text>
+        </g>
+        <g
+           id="g1155">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,245.197,397.899)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1159"><tspan
+               x="0 15.683247 20.559282 27.545601 31.734196 40.622967 53.508488 62.685028 71.781631 80.878235 89.974838 99.071442"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1157">mit EN16931 </tspan></text>
+        </g>
+        <g
+           id="g1161">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,237.912,376.186)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1165"><tspan
+               x="0 4.8760352 15.267585 22.253904 31.734196 38.928345 48.712391 58.800186 68.280479 75.474625 85.066826 95.154625 104.63492"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1163">interoperabel</tspan></text>
+        </g>
+        <g
+           id="g1167" />
+        <g
+           id="g1169">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,244.205,359.802)"
+             style="font-variant:normal;font-weight:normal;font-size:10.998px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1173"><tspan
+               x="0 3.2884021 10.184148 12.97764 15.771132 21.963005 24.85548 31.454281 37.954098 40.648609 45.938644 52.636429 56.52972 62.63361 69.33139 75.325302 81.429192 88.126976 94.417831 101.11561"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1171">(Alle Pfichtangaben </tspan></text>
+        </g>
+        <g
+           id="g1175">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,248.797,344.806)"
+             style="font-variant:normal;font-weight:normal;font-size:10.998px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1179"><tspan
+               x="0 5.9939098 12.185784 22.567896 28.671785 35.468552 38.361023 46.356571 52.350479 56.243771 64.239319 67.13179 73.829575 79.933464 85.223503 91.921288"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1177">gemäß UStG nach </tspan></text>
+        </g>
+        <g
+           id="g1181">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,237.487,329.811)"
+             style="font-variant:normal;font-weight:normal;font-size:10.998px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1185"><tspan
+               x="0 6.8957462 9.9861841 13.175604 17.178877 25.262405 32.455097 38.152061 41.044537 46.829483 53.51627 60.21405 65.713051 72.003906 76.491089 80.384384 83.078896 89.369751 93.856934 100.6427 106.74659 111.23377"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1183">CII/UBL konvertierbar)</tspan></text>
+        </g>
+        <path
+           d="M 368.277,485.093 H 522.935 V 299.877 H 368.277 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1187" />
+        <g
+           id="g1189">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,381.798,386.306)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1193"><tspan
+               x="0 9.5922003 18.480972 28.265017 32.341702 41.326393 47.817116 52.996906 62.780949 71.76564 79.359467 89.143509 99.023476 108.80753 118.59157"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1191">Papier-Rechnung</tspan></text>
+        </g>
+        <path
+           d="M 522.935,485.093 H 959.981 V 437.386 H 522.935 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1195" />
+        <g
+           id="g1197">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,572.91,454.989)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1201"><tspan
+               x="0 8.696928 18.289127 28.169094 35.666996 41.342381 45.33913 54.115993 63.100689 67.289284 77.073326 86.058022 93.651848 103.43589 113.31586 123.0999 132.97986 141.67679 145.86539 149.94208 164.80998 168.99858 177.98328 182.05995 190.94873 199.42184 205.01729 211.50801 221.1002 230.88425 234.96094 242.55476 250.05267 259.8367 268.91733 278.70139 282.88995 291.17123 300.76343 307.25415 322.04211 330.93091"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1199">Sonstige Rechnung im elektronischen Format</tspan></text>
+        </g>
+        <path
+           d="M 522.935,437.386 H 677.594 V 299.877 H 522.935 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1203" />
+        <g
+           id="g1205">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,585.496,362.409)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1209"><tspan
+               x="0 9.5922003 21.262711"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1207">PDF</tspan></text>
+        </g>
+        <path
+           d="M 677.594,437.386 H 805.209 V 299.877 H 677.594 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1211" />
+        <g
+           id="g1213">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,694.687,395.008)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1217"><tspan
+               x="0 8.888772 20.67119 25.866966 31.046755 39.743683 49.639633 56.833786 72.517029 82.10923 89.095551"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1215">EDI-Format </tspan></text>
+        </g>
+        <g
+           id="g1219">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,685.106,373.294)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1223"><tspan
+               x="0 4.7001781 13.493028 25.163538 30.263391 40.335201 52.805061 67.193359 71.381958 80.478561 89.655098 98.639793 107.81633"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1221">(EU-COM 1994)</tspan></text>
+        </g>
+        <g
+           id="g1225">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,720.907,351.609)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1229"><tspan
+               x="0 10.487472 15.363507 23.548851 33.940399 40.92672"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1227">nicht </tspan></text>
+        </g>
+        <g
+           id="g1231">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,686.608,329.896)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1235"><tspan
+               x="0 4.8760352 15.267585 22.253904 31.734196 38.928345 48.712391 58.800186 68.280479 75.474625 85.066826 95.154625 104.53899"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1233">interoperabel</tspan></text>
+        </g>
+        <path
+           d="M 805.209,437.386 H 959.981 V 299.877 H 805.209 Z"
+           style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1237" />
+        <g
+           id="g1239">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,851.698,416.693)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1243"><tspan
+               x="0 10.087797 19.871841 29.751806 38.640579 45.131302 54.115993 61.70982"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1241">Anderes </tspan></text>
+        </g>
+        <g
+           id="g1245">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,831.798,395.008)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1249"><tspan
+               x="0 7.4979029 13.173288 19.568089 29.448053 37.825241 43.420692 53.300659 59.695457 63.772144 72.756836 79.247559 84.84301 93.923622 101.42153"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1247">strukturiertes </tspan></text>
+        </g>
+        <g
+           id="g1251">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,853.597,373.294)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1255"><tspan
+               x="0 8.2812662 17.873466 24.364187 39.232098 48.120869 53.71632"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1253">Format </tspan></text>
+        </g>
+        <g
+           id="g1257">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,821.906,351.609)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1261"><tspan
+               x="0 4.7001781 8.696928 20.367437 32.837299 42.909107 46.809937 50.998531 55.075214 64.859261 76.641678 86.233879 96.017921 103.61175 112.59644 117.18471"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1259">(iDOC, inHouse),</tspan></text>
+        </g>
+        <g
+           id="g1263">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,864.113,329.896)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1267"><tspan
+               x="0 9.7840443 13.860729 21.454554 31.238598 36.913982"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1265">nicht </tspan></text>
+        </g>
+        <g
+           id="g1269">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,831.713,308.211)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1273"><tspan
+               x="0 4.076685 13.860729 19.536114 28.520807 34.915607 44.587742 54.371788 63.35648 69.847206 78.640053 88.52002 97.504715"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1271">interoperabel</tspan></text>
+        </g>
+        <path
+           d="m 0,299.877 h 113.046 v -98.05 H 0 Z"
+           style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1275" />
+        <g
+           id="g1277">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,45.808,266.4)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1281"><tspan
+               x="0 9.7840443 13.860729"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1279">bis</tspan></text>
+        </g>
+        <g
+           id="g1283">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,34.101,244.687)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1287"><tspan
+               x="0 9.0966034 18.193207 22.477722 31.574326 40.670929"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1285">31.12.</tspan></text>
+        </g>
+        <g
+           id="g1289">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,38.296,222.888)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1293"><tspan
+               x="0 9.0966034 18.193207 27.369743"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1291">2024</tspan></text>
+        </g>
+        <path
+           d="m 113.046,299.877 h 255.231 v -98.05 H 113.046 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1295" />
+        <g
+           id="g1297">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,131.301,255.487)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1301"><tspan
+               x="0 9.0966034 18.976568 26.474472 32.149857 36.146606 51.014519 65.882423 75.666473 85.54644 94.323303 98.41597 108.29594 117.28063 124.77853 128.96713 137.8559 152.72382 162.60378 167.89548 176.78424 186.66422 195.36115 204.34584 210.83656 218.43037"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1299">Zustimmung des Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1303">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,201.203,233.802)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1307"><tspan
+               x="0 9.7840443 19.376244 25.051628 37.345631 46.330326 56.114368 65.994339 70.071022"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1305">notwendig</tspan></text>
+        </g>
+        <path
+           d="m 368.277,299.877 h 154.658 v -98.05 H 368.277 Z"
+           style="fill:#54a021;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1309" />
+        <g
+           id="g1311">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,418.791,244.687)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1315"><tspan
+               x="0 8.888772 15.379494 19.376244 28.265017 38.049061 47.929028"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1313">Erlaubt</tspan></text>
+        </g>
+        <path
+           d="m 522.935,299.877 h 154.659 v -98.05 H 522.935 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1317" />
+        <g
+           id="g1319">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,537.789,277.2)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1323"><tspan
+               x="0 9.0966034 18.880648 26.474472 32.069923 36.146606 51.014519 65.882423 75.666473 85.54644 94.243362 98.431961 108.216 117.2007 124.79453"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1321">Zustimmung des </tspan></text>
+        </g>
+        <g
+           id="g1325">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,555.506,255.487)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1329"><tspan
+               x="0 8.888772 23.756681 33.540726 38.928345 47.817116 57.601162 66.378021 75.362717 81.853439 89.351341"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1327">Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1331">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,560.806,233.802)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1335"><tspan
+               x="0 9.7840443 19.376244 25.051628 37.345631 46.330326 56.114368 65.994339 70.071022 78.847885"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1333">notwendig </tspan></text>
+        </g>
+        <g
+           id="g1337">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,553.408,212.088)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1341"><tspan
+               x="0 4.5882692 12.965457 22.557657 32.437622 40.814812 44.891495 54.675541 64.459587 73.444275 83.324242 88.919693"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1339">(konkludent)</tspan></text>
+        </g>
+        <path
+           d="m 677.594,299.877 h 282.387 v -98.05 H 677.594 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1343" />
+        <g
+           id="g1345">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,709.398,255.487)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1349"><tspan
+               x="0 9.1765385 18.960583 26.554407 32.149857 36.226543 51.014519 65.882423 75.76239 85.54644 94.323303 98.511894 108.29594 117.28063 124.87446 129.06305 137.95183 152.73979 162.61977 168.00739 176.80023 186.68021 195.45706 204.34584 210.83656 218.43037"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1347">Zustimmung des Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1351">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,779.301,233.802)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1355"><tspan
+               x="0 9.7840443 19.376244 25.051628 37.345631 46.330326 56.210293 65.994339 70.071022"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1353">notwendig</tspan></text>
+        </g>
+        <path
+           d="M 0,201.827 H 113.046 V 146.92 H 0 Z"
+           style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1357" />
+        <g
+           id="g1359">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,43.2,179.008)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1363"><tspan
+               x="0 9.0966034 13.285197 22.461735"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1361">1.1.</tspan></text>
+        </g>
+        <g
+           id="g1365">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,38.296,157.294)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1369"><tspan
+               x="0 9.0966034 18.193207 27.369743"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1367">2025</tspan></text>
+        </g>
+        <path
+           d="M 113.046,201.827 H 221.329 V -17.802 H 113.046 Z"
+           style="fill:#90c226;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1371" />
+        <g
+           id="g1373">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,135.893,140.088)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1377"><tspan
+               x="0 8.7928495 15.987 20.974943 30.567144 40.958694 51.04649 57.93689"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1375">Erlaubt:</tspan></text>
+        </g>
+        <g
+           id="g1379">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,137.792,96.69)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1383"><tspan
+               x="0 5.483541 15.267585 25.051628 31.542351 37.137802 41.422318 48.808311"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1381">führt zu</tspan></text>
+        </g>
+        <g
+           id="g1385">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,125.688,53.291)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1389"><tspan
+               x="0 8.888772 24.57202 34.659817 40.750862 50.343063 60.830536 69.815231 77.712807"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1387">Empfangs-</tspan></text>
+        </g>
+        <g
+           id="g1391">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,139.096,31.493)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1395"><tspan
+               x="0 10.087797 21.070866 26.058809 34.148232 44.635704 51.5261"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1393">pficht!</tspan></text>
+        </g>
+        <path
+           d="M 221.329,201.827 H 368.277 V -17.802 H 221.329 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1397" />
+        <g
+           id="g1399">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,255.912,107.49)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1403"><tspan
+               x="0 10.695303 15.571338 20.559282 30.151482 37.041878 46.522171 53.71632 63.308521 68.184555 77.664848"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1401">Bilaterale </tspan></text>
+        </g>
+        <g
+           id="g1405">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,240.491,85.805)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1409"><tspan
+               x="0 10.295628 19.775919 26.97007 36.450359 41.326393 51.813866 61.80574 71.397942 78.592094 89.079567 99.471115 108.45581"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1407">Vereinbarung </tspan></text>
+        </g>
+        <g
+           id="g1411">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,252.397,64.091)"
+             style="font-variant:normal;font-weight:bold;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans-Bold;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1415"><tspan
+               x="0 10.39155 20.287502 27.1779 40.846786 50.327076 60.718624 70.806419 75.682457"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1413">notwendig</tspan></text>
+        </g>
+        <path
+           d="M 368.277,201.827 H 522.935 V 92.013 H 368.277 Z"
+           style="fill:#54a021;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1417" />
+        <g
+           id="g1419">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,418.791,140.712)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1423"><tspan
+               x="0 8.888772 15.379494 19.376244 28.265017 38.049061 47.929028"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1421">Erlaubt</tspan></text>
+        </g>
+        <path
+           d="M 522.935,201.827 H 677.594 V 92.013 H 522.935 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1425" />
+        <g
+           id="g1427">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,537.789,162.51)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1431"><tspan
+               x="0 9.0966034 18.880648 26.474472 32.069923 36.146606 51.014519 65.882423 75.666473 85.54644 94.243362 98.431961 108.216 117.2007 124.79453"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1429">Zustimmung des </tspan></text>
+        </g>
+        <g
+           id="g1433">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,555.506,140.712)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1437"><tspan
+               x="0 8.888772 23.756681 33.540726 38.928345 47.817116 57.601162 66.378021 75.362717 81.853439 89.351341"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1435">Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1439">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,560.806,118.998)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1443"><tspan
+               x="0 9.7840443 19.376244 25.051628 37.345631 46.330326 56.114368 65.994339 70.071022"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1441">notwendig</tspan></text>
+        </g>
+        <path
+           d="M 677.594,201.827 H 805.209 V -17.802 H 677.594 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1445" />
+        <g
+           id="g1447">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,694.205,118.403)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1451"><tspan
+               x="0 9.0966034 18.880648 26.474472 32.069923 36.146606 51.014519 65.882423 75.666473 85.54644 94.243362"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1449">Zustimmung </tspan></text>
+        </g>
+        <g
+           id="g1453">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,728.192,96.69)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1457"><tspan
+               x="0 9.8799658 18.86466 26.362562"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1455">des </tspan></text>
+        </g>
+        <g
+           id="g1459">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,696.614,75.005)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1463"><tspan
+               x="0 8.888772 23.756681 33.540726 38.928345 47.817116 57.697083 66.394012 75.378708 81.869431 89.463249"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1461">Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1465">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,701.887,53.291)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1469"><tspan
+               x="0 9.8799658 19.472166 25.067616 37.457542 46.346313 56.22628 66.010323 70.087006"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1467">notwendig</tspan></text>
+        </g>
+        <path
+           d="M 805.209,201.827 H 959.981 V 92.013 H 805.209 Z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1471" />
+        <g
+           id="g1473">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,820.091,162.51)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1477"><tspan
+               x="0 9.0966034 18.976568 26.474472 32.149857 36.146606 51.014519 65.882423 75.666473 85.54644 94.243362 98.431961 108.31193 117.29662 124.79453"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1475">Zustimmung des </tspan></text>
+        </g>
+        <g
+           id="g1479">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,837.808,140.712)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1483"><tspan
+               x="0 8.888772 23.756681 33.540726 38.928345 47.817116 57.601162 66.378021 75.362717 81.853439 89.447266"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1481">Empfängers </tspan></text>
+        </g>
+        <g
+           id="g1485">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,843.109,118.998)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1489"><tspan
+               x="0 9.7840443 19.456179 25.051628 37.441555 46.330326 56.210293 65.994339 70.071022"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1487">notwendig</tspan></text>
+        </g>
+        <path
+           d="M 0,146.92 H 113.046 V 92.013 H 0 Z"
+           style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1491" />
+        <g
+           id="g1493">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,43.2,124.101)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1497"><tspan
+               x="0 9.0966034 13.285197 22.461735"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1495">1.1.</tspan></text>
+        </g>
+        <g
+           id="g1499">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,38.296,102.387)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1503"><tspan
+               x="0 9.0966034 18.193207 27.369743"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1501">2026</tspan></text>
+        </g>
+        <path
+           d="M 0,92.013 H 113.046 V 37.106 H 0 Z"
+           style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1505" />
+        <g
+           id="g1507">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,43.2,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1511"><tspan
+               x="0 9.0966034 13.285197 22.461735"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1509">1.1.</tspan></text>
+        </g>
+        <g
+           id="g1513">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,38.296,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1517"><tspan
+               x="0 9.0966034 18.193207 27.369743"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1515">2027</tspan></text>
+        </g>
+        <path
+           d="m 368.277,92.013 h 77.329 V 37.106 h -77.329 z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1519" />
+        <g
+           id="g1521">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,387.411,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1525"><tspan
+               x="0 11.99025 16.066935 23.564838 33.444805 39.040253"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1523">Nicht </tspan></text>
+        </g>
+        <g
+           id="g1527">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,377.887,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1531"><tspan
+               x="0 7.385994 17.170038 21.246723 30.135494 37.729321 45.227222 49.303909"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1529">zulässig</tspan></text>
+        </g>
+        <path
+           d="m 445.606,92.013 h 77.329 V 37.106 h -77.329 z"
+           style="fill:#54a021;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1533" />
+        <g
+           id="g1535">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,454.791,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1539"><tspan
+               x="0 9.0966034 13.285197 22.461735 31.558338 40.654942 49.527725 58.912094"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1537">&lt; 800T€ </tspan></text>
+        </g>
+        <g
+           id="g1541">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,456.293,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1545"><tspan
+               x="0 11.590575 26.458485 33.956387 42.845161 48.520546"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1543">Umsatz</tspan></text>
+        </g>
+        <path
+           d="m 522.935,92.013 h 77.33 V 37.106 h -77.33 z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1547" />
+        <g
+           id="g1549">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,532.091,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1553"><tspan
+               x="0 9.1765385 13.365132 22.461735 31.558338 40.654942 49.527725 58.912094"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1551">&lt; 800T€ </tspan></text>
+        </g>
+        <g
+           id="g1555">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,533.594,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1559"><tspan
+               x="0 11.590575 26.458485 34.052311 42.941082 48.536533"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1557">Umsatz</tspan></text>
+        </g>
+        <path
+           d="m 600.265,92.013 h 77.329 V 37.106 h -77.329 z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1561" />
+        <g
+           id="g1563">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,619.398,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1567"><tspan
+               x="0 11.99025 15.987 23.580826 33.364868 39.040253"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1565">Nicht </tspan></text>
+        </g>
+        <g
+           id="g1569">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,609.789,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1573"><tspan
+               x="0 7.481916 17.265961 21.342646 30.231417 37.825241 45.323147 49.39983"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1571">zulässig</tspan></text>
+        </g>
+        <path
+           d="m 805.209,92.013 h 77.33 V 37.106 h -77.33 z"
+           style="fill:#e6b91e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1575" />
+        <g
+           id="g1577">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,814.394,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1581"><tspan
+               x="0 9.0966034 13.285197 22.461735 31.558338 40.654942 49.527725 58.912094"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1579">&lt; 800T€ </tspan></text>
+        </g>
+        <g
+           id="g1583">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,815.896,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1587"><tspan
+               x="0 11.590575 26.458485 33.956387 42.845161 48.520546"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1585">Umsatz</tspan></text>
+        </g>
+        <path
+           d="m 882.539,92.013 h 77.442 V 37.106 h -77.442 z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1589" />
+        <g
+           id="g1591">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,901.701,69.194)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1595"><tspan
+               x="0 11.99025 16.066935 23.564838 33.444805 39.040253"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1593">Nicht </tspan></text>
+        </g>
+        <g
+           id="g1597">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,892.205,47.509)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1601"><tspan
+               x="0 7.385994 17.265961 21.262711 30.151482 37.745308 45.24321 49.319897"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1599">zulässig</tspan></text>
+        </g>
+        <path
+           d="M 0,37.106 H 113.046 V -17.802 H 0 Z"
+           style="fill:#b0b0b0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1603" />
+        <g
+           id="g1605">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,43.2,14.287)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1609"><tspan
+               x="0 9.0966034 13.285197 22.461735"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1607">1.1.</tspan></text>
+        </g>
+        <g
+           id="g1611">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,38.296,-7.398)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1615"><tspan
+               x="0 9.0966034 18.193207 27.369743"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1613">2028</tspan></text>
+        </g>
+        <path
+           d="M 368.277,37.106 H 522.935 V -17.802 H 368.277 Z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1617" />
+        <g
+           id="g1619">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,394.894,3.487)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1623"><tspan
+               x="0 11.99025 15.987 23.580826 33.364868 39.040253 43.228848 50.614841 60.494808 64.571495 73.364342 80.958168 88.45607 92.532753"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1621">Nicht zulässig</tspan></text>
+        </g>
+        <path
+           d="M 522.935,37.106 H 677.594 V -17.802 H 522.935 Z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1625" />
+        <g
+           id="g1627">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,549.496,3.487)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1631"><tspan
+               x="0 11.99025 16.066935 23.660761 33.444805 39.040253 43.228848 50.710766 60.494808 64.571495 73.460266 81.054092 88.551994 92.628677"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1629">Nicht zulässig</tspan></text>
+        </g>
+        <path
+           d="M 805.209,37.106 H 959.981 V -17.802 H 805.209 Z"
+           style="fill:#c42f1a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path1633" />
+        <g
+           id="g1635">
+          <text
+             xml:space="preserve"
+             transform="matrix(1,0,0,-1,831.912,14.287)"
+             style="font-variant:normal;font-weight:normal;font-size:15.987px;font-family:'Open Sans';-inkscape-font-specification:OpenSans;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text1639"><tspan
+               x="0 11.894328 15.971013 23.564838 33.348881 39.024265 43.21286 50.598854 60.478821 64.475571 73.364342 80.958168 88.45607 92.532753"
+               y="0"
+               sodipodi:role="line"
+               id="tspan1637">Nicht zulässig</tspan></text>
+        </g>
+        <g
+           id="g1641">
+          <path
+             d="M -0.425,540 H 959.981"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1643" />
+        </g>
+        <g
+           id="g1645">
+          <path
+             d="M 0,540.425 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1647" />
+        </g>
+        <g
+           id="g1649">
+          <path
+             d="M 113.046,540.425 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1651" />
+        </g>
+        <g
+           id="g1653">
+          <path
+             d="M 368.277,540.425 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1655" />
+        </g>
+        <g
+           id="g1657">
+          <path
+             d="M -0.425,485.093 H 959.981"
+             style="fill:none;stroke:#ffffff;stroke-width:2.65006;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1659" />
+        </g>
+        <g
+           id="g1661">
+          <path
+             d="M 221.329,486.425 V 299.452"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1663" />
+        </g>
+        <g
+           id="g1665">
+          <path
+             d="M 522.935,486.425 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1667" />
+        </g>
+        <g
+           id="g1669">
+          <path
+             d="M 522.51,437.386 H 959.981"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1671" />
+        </g>
+        <g
+           id="g1673">
+          <path
+             d="M 677.594,437.811 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1675" />
+        </g>
+        <g
+           id="g1677">
+          <path
+             d="M 805.209,437.811 V 299.452"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1679" />
+        </g>
+        <g
+           id="g1681">
+          <path
+             d="M -0.425,299.877 H 959.981"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1683" />
+        </g>
+        <g
+           id="g1685">
+          <path
+             d="M -0.425,201.827 H 959.981"
+             style="fill:none;stroke:#000000;stroke-width:2.63617;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0.48188, 0.99211;stroke-dashoffset:0;stroke-opacity:1"
+             id="path1687" />
+        </g>
+        <g
+           id="g1689">
+          <path
+             d="M 221.329,203.159 V -17.802"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1691" />
+        </g>
+        <g
+           id="g1693">
+          <path
+             d="M 805.209,203.159 V -18.227"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1695" />
+        </g>
+        <g
+           id="g1697">
+          <path
+             d="M -0.425,146.92 H 113.471"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1699" />
+        </g>
+        <g
+           id="g1701">
+          <path
+             d="M -0.425,92.013 H 113.471"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1703" />
+        </g>
+        <g
+           id="g1705">
+          <path
+             d="M 367.852,92.013 H 678.019"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1707" />
+        </g>
+        <g
+           id="g1709">
+          <path
+             d="M 445.606,92.438 V 36.68"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1711" />
+        </g>
+        <g
+           id="g1713">
+          <path
+             d="M 600.265,92.438 V 36.68"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1715" />
+        </g>
+        <g
+           id="g1717">
+          <path
+             d="M 804.784,92.013 H 960.406"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1719" />
+        </g>
+        <g
+           id="g1721">
+          <path
+             d="M 882.539,92.438 V 36.68"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1723" />
+        </g>
+        <g
+           id="g1725">
+          <path
+             d="M 959.981,92.438 V 36.68"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1727" />
+        </g>
+        <g
+           id="g1729">
+          <path
+             d="M -0.425,37.106 H 113.471"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1731" />
+        </g>
+        <g
+           id="g1733">
+          <path
+             d="M -0.425,-17.802 H 113.471"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1735" />
+        </g>
+        <g
+           id="g1737">
+          <path
+             d="M 367.852,37.106 H 678.019"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1739" />
+        </g>
+        <g
+           id="g1741">
+          <path
+             d="M 367.852,-17.802 H 678.019"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1743" />
+        </g>
+        <g
+           id="g1745">
+          <path
+             d="M 804.784,37.106 H 960.406"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1747" />
+        </g>
+        <g
+           id="g1749">
+          <path
+             d="M 804.784,-17.802 H 959.981"
+             style="fill:none;stroke:#ffffff;stroke-width:0.85009;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1751" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

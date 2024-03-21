@@ -1,0 +1,316 @@
+= Frequently Asked Questions
+
+== Practical
+=== When will B2B e-invoicing become mandatory in Germany
+
+Reading : as of 2025, Writing: as of 2027, for some as of 2028
+
+.Matrix © 2024 Andreas Pelekies validool.org
+image::Tabelle_Zeitlicher_Ablauf.svg[Matrix © 2024 Andreas Pelekies validool.org]
+
+
+=== When will B2G e-invoicing become mandatory in Germany
+On federal level, as of 1000€ it already is.
+Regional authorities have the following deadlines
+
+Information may not be accurate:
+[cols="1,1,1"]
+|===
+| State | Mandatory B2G e-invoicing since | Portal
+
+| Schleswig Holstein
+| N/A
+| N/A
+
+|Mecklenburg Vorpommern
+|01.04.2023
+|OZGRE
+
+|Hamburg
+|N/A
+|N/A
+
+|Bremen
+|27.11.2020
+|zErika
+
+|Berlin
+|31.12.2022
+|OZGRE
+
+|Brandenburg
+|N/A
+|OZGRE
+
+|Hessen
+|18.04.2024
+|N/A
+
+|Bayern
+|N/A
+|N/A
+
+|Thüringen
+|N/A
+|OZGRE
+
+|Niedersachsen
+|N/A
+|N/A
+
+|Nordrhein-Westfalen
+|yes
+|NRW Portal
+
+|Rheinland-Pfalz
+|01.01.2024
+|RLP portal
+
+|Saarland
+|01.01.2022
+|RLP portal
+
+|Baden-Würtemberg
+|01.01.2022
+|ZRE (BW)
+
+|Sachen
+|N/A
+|OZGRE
+|===
+
+
+ link:https://www.verband-e-rechnung.org/xrechnung/[Source]
+
+=== How do I know it's ZUGFeRD/Factur-X/how many do I already have/what is the market share?
+ZUGFeRD/Factur-X are ordinary PDF files, some readers may signal e.g. with a disclaimer on a blue background that
+it's a PDF/A file, which may be a hint, but the "smoking gun" is a embedded .XML file like
+factur-x.xml, ZUGFeRD-invoice.xml, zugferd-invoice.xml or xrechnung.xml.
+Embedded files may be shown as "paperclip" symbol, unfortunately some PDF readers like
+web browsers don't support embedded files.
+
+If you want to check a local directory structure you can e.g. use the open source
+link:https://www.mustangproject.org/kommandozeile/?lang=de#count[Mustangproject]
+commandline "metrics" feature. Unfortunately, to this day no study is known to elaborate
+on the market share of ZUGFeRD/Factur-X invoices, i.e. which percentage of PDF invoices
+on average contain ZUGFeRD/Factur-X data.
+
+=== Which formats are eligible? Why only them?
+
+For B2G and B2B both EN16931-2 XML formats, UBL and CII, are eligible,
+for B2B you can additionally use CII based ZUGFeRD/Factur-X.
+
+Why UBL and CII is explained in EN16931-2, https://www.beuth.de/de/technische-regel/din-cen-ts-16931-2/274991011
+why CII developed in the first place after UBL is explained on https://www.oasis-open.org/committees/download.php/57887/UBL%20and%20CEFACT%20update%20-%2020160407.pdf
+and that Factur-X is allowed has been laid down in https://www.dstv.de/wp-content/uploads/2023/10/BMF_2023-0922192-R.pdf
+
+
+=== Can I just convert from one XML format to the other?
+Theoretically yes, but there is currently only one open source Java
+link:https://github.com/phax/en16931-cii2ubl[library] which only converts in only one direction, from CII to UBL
+
+
+=== How can I check if a file is valid
+[#validators]
+There are validators which will check for syntax and algorithmic correctness, apart from
+proprietary also some open-sourced
+
+* The link:https://www.zugferd-community.net/de/open_community/validation[ZUGFeRD community] uses the link:https://mustangproject.org[Mustang] engine
+* link:https://services.fnfe-mpe.org/[FNFE] uses a link:https://github.com/akretion/factur-x-validator[odoo based engine] and
+* link:https://ecosio.com/de/peppol-und-xml-dokumente-online-validieren/[Ecosio] (XML only) uses link:https://github.com/phax/phive[PHIVE] as an engine
+
+For semantic correctness you may want to refer to a link:index.adoc#_display[viewer]
+
+=== Who chooses which format is used
+The sender
+
+
+=== What do I have to consider when sending/receiving electronic invoices
+
+In germany, in one word: GoBD.
+There are
+Principles for the proper keeping and storage of books,records and documents in electronic form and for data access
+
+link:https://ao.bundesfinanzministerium.de/ao/2021/Anhaenge/BMF-Schreiben-und-gleichlautende-Laendererlasse/Anhang-64/anhang-64.html[
+Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern,
+Aufzeichnungen und Unterlagen in elektronischer Form sowie zum
+Datenzugriff].
+
+Which requires
+
+Please note that the process documentation example for paper-replacing scans
+link:https://www.bstbk.de/downloads/bstbk/steuerrecht-und-rechnungslegung/fachinfos/BStBK_Muster-VerfD-ersetzendes-Scannen_v2.0-2019-11-29.pdf[Muster-Verfahrensdokumentation zum ersetzenden Scannen
+] is only a part of the complete process documentation of which you will find an example
+in the
+link:https://www.awv-net.de/upload/pdf/Belegablage_V1_20151026.pdf[Muster-Verfahrensdokumentation für Belegablage]
+
+
+=== How can I automatically submit german B2G invoices
+
+Kosit, the authority for government invoices, so to speak, has joined the
+EDI network Peppol and discontinued the existing API access to the ZRE.
+
+This means that the only way to submit government invoices in
+Germany is completely automated is via Peppol. You
+not only still have to address the Peppol invoice to the correct portal
+to the correct portal, you also have to register with each portal beforehand
+(at least automated) beforehand.
+
+=== XRechnung Referenzprofil CII
+
+XRechnung is defined for UBL and UN/CEFACT, but ZUGFeRD itself in the
+XRechnung reference profile is exclusively a UN/CEFACT format. In the
+review, the corresponding mention (section 3.2.4 on p. 13) was considered sufficient.
+was considered sufficient.
+
+
+=== Which version of which standard do I have to use?
+<a href="https://www.beuth.de/de/technische-regel/din-cen-ts-16931-2/274991011">EN16931-2</a> mentions "2016b" of <a href="https://unece.org/trade/uncefact/xml-schemas">Cross Industry Invoice</a> CII or UBL 2.1,
+ZUGFeRD 2.x (2.3.1 is the newest) and <a href="https://xeinkauf.de/xrechnung/">XRechnung</a> 3.0.1 (updates once a year) are compliant to the new B2B rules. Please note
+that ZUGFeRD 2.x equals Factur-X 1.x. ZUGFeRD version 1 has never been officially deprecated but is likely to be
+discontinued and it's not compliant to EN16931, so neither usable for B2G invoices nor for B2B invoices in the future.
+
+
+=== ZUGFeRD/Factur-X: XML or PDF: What do I have to use, check, respectively archive how?
+
+In Germany, if you are a company, you will have to check and use XML (source https://www.dstv.de/wp-content/uploads/2023/10/BMF_2023-0922192-R.pdf) and archive also at least XML (GoBD page 30, §9.1 Maschinelle Auswertbarkeit).
+As customer, you can decide if you check&use XML or PDF. However, and despite the spec says the contents should be identical, due to possible fraud please do not check e.g. only the PDF and then pay the XML version. Unfortunately, if you wanted to auto detect deviations you need OCR and a invoice recognition and your results will most likely not be perfect.
+Hoewever, if you receive by email, unless there is any invoice related information in the email text (like "as agreed on the phone just pay half of it") you usually have no obligation to archive the email.
+
+=== How to calculate and round invoices? How many decimals are allowed?
+
+https://www.beuth.de/de/norm/din-en-16931-1/327729047
+
+== B2B
+=== Continous Transaction Control (CTC) (USt-Meldesystem)
+
+There are different types range of Continous Transaction Control (CTC) systems, in german called VAT reporting system types (Umsatzsteuer-Meldesystem) (cf
+Kollmann
+https://www.pagero.com/downloads/documents/compliance/Next_Generation_Model-Decentralised_CTC_and_Exchange_v1.pdf
+p.6: Italy is Centralized Clearance, EU~France is EESPA,
+i.e. Decentralized CTC and Exchange) and Germany is already trying
+to become compatible with the future European system with the requirement to use EN16931.
+European system.
+
+=== Countries
+
+Italy
+https://ec.europa.eu/cefdigital/wiki/download/attachments/68331443/CEF%20eInvoicing_2018-12-04%20Stanziale%20-%20Brussels%20%285%29.pdf
+
+France
+https://www.edicomgroup.com/en_US/news/13617-france-prepares-for-mandatory-b2b-e-invoicing.html
+
+Germany
+https://www.verband-e-rechnung.org/pdfs/VeR-Studie_Clearance_2020.pdf
+
+=== Europa/ViDA
+
+With the EU draft directive link:https://audiovisual.ec.europa.eu/en/topnews/M-009199[Vat in the Digital Age (ViDA)]
+ is being worked on,
+at least as far as cross-border transactions are concerned.
+
+And ViDA wants to build on the B2G e-invoicing standard EN16931.
+
+== Background
+
+=== When I receive a Factur-X, can I book automatically?
+
+Usually not. E.g. using link:#validators[validators] you may be able to confirm the invoice is calculated
+correctly but you can only book automatically (german: Dunkelbuchung) in ideal circumstances: e.g. if you already
+entered the order in your system and you have confirmation about the incoming goods in your system and the invoice
+refers to the order you will be able to confirm that the invoice also __matches__ your order. Together with
+whitelisted bank details in this case you can probably pay and book automatically.
+
+=== What does the ZUGFeRD abbreviation stand for?
+
+ZUGFeRD was once called Central User Guide Forum Electronic Invoice
+Germany (Zentraler User Guide Forum elektronische Rechnung Deutschland). The ``ZUG'' in the name was possibly a tribute to the
+MUG, the Message User Group, which developed CWA and thus defined
+which subset of CII, for example, is important for European use: VAT, for example
+is important for European use: VAT, for example, yes, North American sales tax, for example, no. The
+international name became Factur-X. For historical reasons
+Factur-X 1 was released when ZUGFeRD had just reached version 2, ZUGFeRD 2
+therefore corresponds to Factur-X 1.
+
+After Order-X and after the start but before the completion of the work (on
+delivery bills, called Deliver-X), ZUGFeRD became a format family: the term
+The term changed to the plural, Zentrale User Guides Forum
+elektronische Rechnung Deutschland, the abbreviation remained (cf
+https://www.ferd-net.de/aktuelles/meldungen/rueckblick-auf-die-sitzung-des-ferd-plenums.html).
+
+
+
+
+=== Netto
+
+§6.4.3.1.1
+
+=== Credit Note
+
+real commercial credit note: any non-380 type code, no
+minus BUT cancellation invoice (and that's what 90% mean by credit note):
+negative quantity->negative price, negative VAT so practically everything
+Minus. Typecode for cancellation invoice I mean 384, there is an
+official ZUGFeRD example.
+
+
+
+
+=== Decimals
+
+=== Order-X
+
+Public review 1
+https://www.ferd-net.de/aktuelles/meldungen/public-review-des-entwurfs-fuer-order-x-hat-begonnen-und-laeuft-bis-ende-september-2020.html
+
+
+=== What OpenSource tools/libraries exist?
+
+I have tried to list all source solutions on link:index.adoc[this page]
+
+=== How to write ZUGFeRD
+
+=== How can I distinguish ZF1 from ZF2=FX1?
+
+The name of the embedded file is ZUGFeRD-invoice.xml for ZF1 and zugferd-invoice.xml, factur-x.xml or xrechnung.xml for ZF2. And the root element is CrossIndustryDocument for ZF1 and CrossIndustryInvoice for ZF2.
+
+
+==== Requirements
+
+
+=== What is the content-difference between ZUGFeRD/Factur-X and XRechnung
+
+
+
+
+
+=== Where do I get schema files/further info
+
+Schema, Schematron, Samples, Spec, Reference and Codelists are available
+via the ZF Infopaket https://www.ferd-net.de/ZUGFeRD-Download
+
+The possible Attribute values are shared between UBL and CII, 18 of ~20 lists are also separately available in link:https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/Registry+of+supporting+artefacts+to+implement+EN16931[version 12 here].
+
+
+
+The calculation of electronic invoices is standardized within the framework of EN16931-1which can be obtained free of charge online, in Germany in the shop of the
+store of the DIN-affiliated Beuth publishing house.
+https://www.beuth.de/en/standard/din-en-16931-1/314992770
+
+
+As far as I know, quantities and prices may have four digits (see theFactur-X specification 1.0.50, section 7.1.5), the item must be rounded to two-digit sums
+be rounded to two-digit totals - and the sum of the items with the sameitems with the same VAT rate leads to the two-digit VAT amount for this rate.VAT amount for this rate. See also EN16931-1 chapter 6.5.12,
+where, interestingly, net prices are quoted in two digits.
+
+
+=== What is the difference between Factur-X and ZUGFeRD
+
+Factur-X 1.0.50 is the French and international name of ZUGFeRD2.1 The Factur-X file name (factur-x.xml) and metadata (RDF metadatawith the namespace prefix "fx") are preferred since ZUGFeRD 2.1.
+
+
+=== What is the difference between XRechnung and ZUGFeRD/Factur-X
+
+=== What is the difference between PDF and PDF/A
+
+
+

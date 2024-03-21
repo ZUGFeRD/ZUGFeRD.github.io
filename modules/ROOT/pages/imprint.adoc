@@ -1,0 +1,27 @@
+= Imprint
+
+== Responsible for this page
+
+Jochen Stärk, link:https://www.usegroup.de[usegroup]
+....
+Huswertstr. 14
+60435 Frankfurt
+....
+
+
+[NOTE]
+.Contact
+====
+
+* phone: ++49+6956994018
+* e-mail: info@usegroup.de
+====
+
+[IMPORTANT]
+.This page is inofficial
+====
+This page covers the ZUGFeRD standard, but for any official
+communication, downloads, statements, recommendations, options or information, please refer to link:https://www.ferd-net.de/standards/zugferd/index.html[the official ZUGFeRD page]
+====
+
+

@@ -1,0 +1,250 @@
+= Knowledge base
+
+
+=== Namespace prefixes
+
+rsm:, ram:, qdt: and udt are mandatory:
+https://www.zugferd-community.net/de/infothek/technical_xml_regarding_fixed_namespace_prefixes_rsm_ram_
+
+=== Format vs Protokoll, EDI
+
+A format
+defines the meaning (example German language) and the protocol
+addressing, sequence and transmission (example telephone: first ring, then answer).
+ring, then pick up). Both together are EDI. It is only
+super complex, simply because every company has a different address in every EDI
+address - and not every company uses EDI, let alone every
+EDI.
+
+In this respect, the question of the format from which CII or UBL
+the question of what would be the lowest common denominator from which we could
+common denominator from which we can get what we need in a machine-readable
+what we need.
+
+Peppol is UBL as a format and AS/4 as a protocol, by the way. AS/4 is
+supposedly similar to https.
+
+=== Frankreich
+
+France provides OpenApi descriptions (cf
+https://communaute.chorus-pro.gouv.fr/wp-content/uploads/2020/04/External_Specifications_API_Appendix_V5.00.pdf
+refers to the API management of the French,
+https://developer.aife.economie.gouv.fr/, where you can also register with
+a German VAT ID and pull OpenAPI files for their interface.
+interface), but in Germany there was only a conventional human-readable
+conventional human-readable specification for a REST API that has
+is now switched off and there will probably not be one for B2B.
+
+=== USt Meldesystem
+
+After the obligation to receive and after the obligation to send, the
+VAT reporting system is to be introduced in a third step. That
+then becomes exciting, that would be an interface for which OpenAPI or
+WSDL makes total sense, but I think I read somewhere that the XML obligation
+that they would like to have the XML obligation precisely because
+the VAT reporting system is not progressing so quickly at the moment. And
+this will be decided and published much later. ViDA
+(EU) plans:
+https://ec.europa.eu/commission/presscorner/detail/en/ip_22_7514
+
+The following types: Kollmann
+https://www.pagero.com/downloads/documents/compliance/Next_Generation_Model-Decentralised_CTC_and_Exchange_v1.pdf
+
+
+=== Report issues
+
+https://github.com/ConnectingEurope/eInvoicing-EN16931/issues
+
+about validation artefacts, versioning and general considerations
+
+https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/Validations
+
+about release dates and how to comment / create an issue
+https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/Registry+of+supporting+artefacts+to+implement+EN16931#RegistryofsupportingartefactstoimplementEN16931-Regularreleaseschedule
+
+=== How can I find out which standard is used
+Fundamentally, the root element of UBL is invoice or creditmemo, whereas the root
+element of ZUGFeRD 1 used to be CrossIndustryDocument and of Cross Industry Invoice
+(ZUGFeRD 2, Factur-X) is CrossIndustryInvoice. In CII structures, you will find more
+information in the guideline ID
+/rsm:ExchangedDocumentContext/ram:GuidelineSpecifiedDocumentContextParameter/ram:ID
+
+e.g.
+urn:cen.eu:en16931:2017 being EN16931 profile,
+urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended
+being extended, XRechnung 2.1
+urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.1
+or for XR 3.0.1
+urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0
+
+=== Hash
+
+Ulrike Linde on February 23, 2020
+
+The construction of the URIs for CIUS and extensions is described in TR16931-5
+Chapter 6.8 is described. Chapter 6.9 formulates recommendations for
+validation:
+
+The creation of the validation artefacts can be done in two main ways.
+
+* By modifying the validation artefacts from the underlying
+specification. In this case the invoice instance document may be
+validated with a single set of artefacts in one run.
+* By creating a new set of validation artefacts that only tests for the
+differences that are defined by the extension specification.
+
+Although both approaches may be used, their technical feasibility
+depends on the nature of the extensions. When both approaches are
+feasible the second one is preferred since the differences between the
+extension specification and its underlying specification can be better
+monitored when these two sets are run sequentially. This also reduces
+the risk that the extension specification that is created, results in
+not-conformant invoice instances without that being identified until the
+extension specification is in full production.
+
+(The text is taken from FprCEN TR 16931-5, so please compare it again with the final version.
+the final version).
+
+Andreas' argument is implicit: he is only exempt from adapting the validation specification for
+extensions that the validation artifacts have been adapted. Conversely
+Conversely, this would mean that the same validator should be used for all CIUS.
+validator should be used for all CIUS.
+
+However, Part 5 is only a technical report and not a combined validator.
+
+=== Gross invoices (Bruttorechnungen)
+
+What does not work with UBL/CII/EN16931, for example, is the
+gross calculation, certain ``rack prices'' such as 9,99€ gross at
+19%, for example, cannot be calculated in accordance with EN16931:
+8.39€ net would amount to 9.98€ to be paid, 8.40€ to already 10€.
+
+=== Receipts
+
+Digital receipts in Germany:
+
+Regarding legal obligations: since 30.07.2021, there has been § 6
+sentence 2 KassenSichV, i.e. the QR code standard
+https://www.bzst.de/SharedDocs/Downloads/DE/Aussenpruefung/dsfinv_k_v_2_4.zip?__blob=publicationFile&v=7
+but a receipt is a low-value invoice and what is specified there
+does not adhere to any international standard. I and many of my
+of my colleagues, electronic invoices, for example, in the sense of
+EN16931 only take into account fully fledged invoices (in Germany from
+250€, with mandatory information such as the customer's name and address).
+
+=== Common issues when writing
+
+* PDF/A
+** Dont forget RDF and XMP Extension Schema
+** A/1 to A/3 works but may be huge
+* XML
+** paper-invisible attributes like VAT exemption reason codes
+** Decimals and rounding. And, please, use arbitrary precision
+** Check against Schema+Schematron
+** Fixed Namespace Prefixes
+** Codelists, formal and semantic
+** STK=Stück? → Quba-viewer.org
+** Why 1..n tax currency?
+** Gross price definition correct?
+* HATE test: Have your EN16931-1 handy
+* Check totals
+
+=== Common issues when reading
+
+* Filename can be
+** zugferd-invoice.xml,
+** xrechnung.xml,
+** ZUGFeRD-invoice.xml,
+** cida.xml (Deliver-X prerelease),
+** order-x.xml or
+** factur-x.xml (default)
+* PDF
+** embedded files may have „alias“ filenames
+** can be embedded using „flat“ or „tree“ method
+** PDF parts can be compressed
+** PDF/A-4?
+* XML
+** may contain UTF8-BOM
+** Venetian blinds design pattern
+** Please, use arbitrary precision
+** Attached files may be attached as additional PDF embedded file, or,
+in case of XRechnung, base64 encoded within the XML
+
+=== HATE test
+
+HOritontal Addition TEst: VAT amounts need to be added first, then the tax is applied
+"vertically".
+
+
+E.g. if you have an invoice
+[cols="1,1,1"]
+|===
+|1x
+|123,45€
+|19%
+|1x
+|123,45€
+|19%
+|Total
+|246,90€
+|19%
+|===
+
+You take the net total per VAT rate, in that case 19%, apply it, and round it to cents,
+i.e. 246,90*0,19=46,911 ~ 46,91 and add it to the total line amount, in this case
+amounting to 293,81.
+
+I.e. it is __not__ correct to calculate "horizontally", ropund it to cent
+123,45*0.19=23,4555~23,46, add it to the line total, which would give you
+2x146,91=293,82€.
+
+There is a different and slightly more complex example explicitly mentioned in
+the (free) https://www.beuth.de/en/standard/din-en-16931-1/314992770[EN16931-1],
+pg 119 with 25% Taxes.
+
+
+=== Which german state has which XRechnung regulations?
+https://www.verband-e-rechnung.org/XRechnung/
+
+=== Why do UBL and CII differ?
+https://www.oasis-open.org/committees/download.php/57887/UBL%20and%20CEFACT%20update%20-%2020160407.pdf
+
+
+
+=== What is a profile, which ones exist and why?
+
+=== PDF/A
+
+Converting any PDF input to PDF/A-3 is out of scope for the
+mustangproject tool&library, because it is too complex, you can not just
+filter out some things, usually you need to completely rebuild a valid
+pdf/a, ghostscript is a very good and AFAIK the only open source
+solution which can handle that (see
+https://github.com/ZUGFeRD/mustangproject/issues/164#issuecomment-640046774).
+
+Please note that it’s out of scope for the tool&library does not mean
+that it’s out of scope for mustang server, which could use ghost4j for
+that, actually I do have some ghost4j-questions.
+
+=== Ghostscript, general
+
+Ghostscript did an amazing work years ago already and implemented the
+functionality (Ext_Metadata
+https://www.ghostscript.com/doc/VectorDevices.htm#Extensions) which was
+required to generate proper ZUGFeRD PDFs. They did not announce it very
+much but https://bugs.ghostscript.com/show_bug.cgi?id=696472 gives you a
+start in case you are interested.
+
+=== Schematron
+
+if you e.g. want to check the CEN schematron you might have to get that
+schematron, java, saxon, and the ``ISO Schematron'' transformation and
+run saxon with the ISO Schematron to create a XSLT-File from the
+schematron file and then run this generated XSLT file on your input.
+There is a description for mac on
+https://blog.eight02.com/2011/05/validating-xml-with-iso-schematron-on.html
+
+
+=== Can I use any PDF as basis for a ZUGFeRD/Factur-X
+ZUGFeRD is based on archivable (PDF/A) PDFs that embed all the data required fordata required for display, such as fonts.A free
+possibility to convert "normal" PDF files is, for example, Ghostscript.Ghostscript.

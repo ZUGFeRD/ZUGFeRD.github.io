@@ -1,0 +1,51 @@
+name: Publish to GitHub Pages with Lunr Search Extension
+on:
+  push:
+    branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install Antora with the Antora Lunr Extension
+        run: npm i antora @antora/lunr-extension
+      - name: Generate Site
+        run: npx antora docs-site/antora-playbook.yml
+      - name: Zip Docs
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r docs.zip docs-site/build/site
+      - name: Upload Zip
+        id: artifact-upload-step
+        uses: actions/upload-artifact@v4
+        with:
+          path: docs.zip
+      - name: Use URL for something
+        run: find docs-site/build/site/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's|\[\[Download\]\]|${{ steps.artifact-upload-step.outputs.artifact-url }}|g'
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: docs-site/build/site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
