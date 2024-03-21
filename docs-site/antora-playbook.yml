@@ -7,7 +7,7 @@ content:
     branches: HEAD
 ui:
   bundle:
-    url: https://github.com/ZUGFeRD/ZUGFeRD.github.io/raw/main/docs-site/ui-bundle.zip
+    url: https://github.com/ZUGFeRD/ZUGFeRD.github.io/raw/master/docs-site/ui-bundle.zip
     snapshot: true
   supplemental_files:
     - path: ui.yml
