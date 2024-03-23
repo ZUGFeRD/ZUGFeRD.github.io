@@ -234,9 +234,8 @@ therefore corresponds to Factur-X 1.
 
 After Order-X and after the start but before the completion of the work (on
 delivery bills, called Deliver-X), ZUGFeRD became a format family: the term
-The term changed to the plural, Zentrale User Guides Forum
-elektronische Rechnung Deutschland, the abbreviation remained (cf
-https://www.ferd-net.de/aktuelles/meldungen/rueckblick-auf-die-sitzung-des-ferd-plenums.html).
+The term changed to the plural, link:https://www.ferd-net.de/aktuelles/meldungen/rueckblick-auf-die-sitzung-des-ferd-plenums.html[Zentrale User Guides Forum
+elektronische Rechnung Deutschland], the abbreviation remained.
 
 
 
@@ -257,6 +256,19 @@ official ZUGFeRD example.
 
 
 === Decimals
+
+link:https://www.beuth.de/en/standard/din-en-16931-1/314992770[EN16931-1]
+explains §6.5.12 that sums are rounded to two decimals,
+the line total, tax amount, amount due.
+The number of decimals for Prices and Quantity is defined in ISO15000 appendix B "Amount" type.
+
+A colleague mentioned "decimal" Chapter 3.2.3 at https://www.w3.org/TR/xmlschema-2/ to be significant, which seems to be a
+18-digit number, not neccessarily a floating point number.
+Floating point numbers could introduce other issues like with
+link:https://www.youtube.com/watch?v=Oo89kOv9pVk[comparison],
+link:https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html[arithmetrics] or
+link:https://speleotrove.com/decimal/decifaq.html[their FAQ].
+
 
 === Order-X
 
@@ -280,7 +292,14 @@ The name of the embedded file is ZUGFeRD-invoice.xml for ZF1 and zugferd-invoice
 
 === What is the content-difference between ZUGFeRD/Factur-X and XRechnung
 
+ZUGFeRD/Factur-X is always CII while XRechnung can be UBL or CII.
+Content-wise the XRechnung asks for
 
+* a Leitweg-ID as buyer reference (a kind of recipient ID issues by the german authorities)
+* bank transfer as payment method
+* a contact with phone number and email from the sender of the invoice
+* a means of electronically reaching sender and recipient (e.g. E-mail)
+* EN16931 explicitly disallows cash discount (Skonto) in it's XML, so the XRechnung specifies a proprietary format to re-introduce structured information in what otherwise would be a freetext field
 
 
 
@@ -293,9 +312,9 @@ The possible Attribute values are shared between UBL and CII, 18 of ~20 lists ar
 
 
 
-The calculation of electronic invoices is standardized within the framework of EN16931-1which can be obtained free of charge online, in Germany in the shop of the
+The calculation of electronic invoices is standardized within the framework of link:https://www.beuth.de/en/standard/din-en-16931-1/314992770[EN16931-1] which can be obtained free of charge online, in Germany in the shop of the
 store of the DIN-affiliated Beuth publishing house.
-https://www.beuth.de/en/standard/din-en-16931-1/314992770
+
 
 
 As far as I know, quantities and prices may have four digits (see theFactur-X specification 1.0.50, section 7.1.5), the item must be rounded to two-digit sums
@@ -308,9 +327,24 @@ where, interestingly, net prices are quoted in two digits.
 Factur-X 1.0.50 is the French and international name of ZUGFeRD2.1 The Factur-X file name (factur-x.xml) and metadata (RDF metadatawith the namespace prefix "fx") are preferred since ZUGFeRD 2.1.
 
 
-=== What is the difference between XRechnung and ZUGFeRD/Factur-X
-
 === What is the difference between PDF and PDF/A
 
+ZUGFeRD/Factur-X is based on PDF/A is a subset of PDF.
+While the PDF spec is freely available PDF/A
+is defined in ISO 19000-5, it is
 
+* archivable, and a such
+* self contained and
+* validatable
+
+compared to PDF.
+Self contained e.g. means it lacks the feature of referencing external fonts, i.e. all fonts have to be embedded in the document.
+
+
+In contrast to ordinary PDF, there are only two clearly defined ways to
+embed and hence extract embedded files (flat and tree).
+
+There are PDF/A validators like the open-source link:https://verapdf.org[Verapdf].
+
+An especially wild example of usual non-PDF/A-PDF is link:https://pocorgtfo.hacke.rs/pocorgtfo16.pdf[Proof of concept or get the fuck out of here 0x16] which is "valid" "as a PDF document, a ZIP archive, and a Bash script that runs a Python webserver which hosts Kaitai Struct’s WebIDE which, allowing you to view the file’s own annotated bytes".
 
