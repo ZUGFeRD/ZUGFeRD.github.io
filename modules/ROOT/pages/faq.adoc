@@ -348,3 +348,10 @@ There are PDF/A validators like the open-source link:https://verapdf.org[Verapdf
 
 An especially wild example of usual non-PDF/A-PDF is link:https://pocorgtfo.hacke.rs/pocorgtfo16.pdf[Proof of concept or get the fuck out of here 0x16] which is "valid" "as a PDF document, a ZIP archive, and a Bash script that runs a Python webserver which hosts Kaitai Struct’s WebIDE which, allowing you to view the file’s own annotated bytes".
 
+=== Where can I ask questions?
+
+Apart from Stackoverflow there is
+
+* The link:https://groups.google.com/g/zugferd[google group]  in english
+* The link:https://www.zugferd-community.net/de/open_community/forum[ZUGFeRD community forum]  in german and a
+* Matrix  link:https://app.element.io/#/room/#facturx:matrix.org[chatroom]  in english
