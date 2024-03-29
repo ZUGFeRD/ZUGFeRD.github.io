@@ -1,6 +1,6 @@
 site:
   title: ZUGFeRD Info
-  start_page: e-invoicing::index.adoc
+  start_page: e-invoicing::index.en.adoc
 content:
   sources:
   - url: https://github.com/ZUGFeRD/ZUGFeRD.github.io.git
