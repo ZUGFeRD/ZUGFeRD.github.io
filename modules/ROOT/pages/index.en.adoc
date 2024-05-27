@@ -25,7 +25,7 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 * link:https://mustangproject.org/[Mustang] is an APL Java and link:https://mustangproject.org/net/[.net] library for ZUGFeRD 1 and 2(=Factur-X) and a command-line tool to extract, combine and validate. It's open-source link:https://github.com/ZUGFeRD/mustangserver[REST API] has been continued link:https://mustangproject.org/server/[commercially].
 
 === Delphi
-* link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi], library for Delphi
+* link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi[library for Delphi]
 
 == PDF tools
 === Creation
