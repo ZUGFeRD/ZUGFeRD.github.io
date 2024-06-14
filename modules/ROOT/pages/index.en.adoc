@@ -62,7 +62,7 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 * The link:https://github.com/itplr-kosit/xrechnung-visualization/releases[XRechnung XSLT] can be used to convert ZUGFeRD/Factur-X to HTML
 * Ultramarin Viewer is a link:https://www.ultramarinviewer.de/[freeware viewer] for XRechnung based on these XSLTs, additionally
 * OpenXRechnungToolbox is an link:https://github.com/jcthiele/OpenXRechnungToolbox[open source cross platform XRechnung viewer] as well as
-* Quba, a link:https://quba-viewer.org[open source cross platform multi format viewer] (also displaying ZUGFeRD/Factur-X PDF and XML)
+* Quba-Viewer, a link:https://quba-viewer.org[open source cross platform multi format viewer] (also displaying ZUGFeRD/Factur-X PDF and XML)
 
 == Miscellaneous
 * link:http://4s4u.de/additional_data[Additional data] is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles)
