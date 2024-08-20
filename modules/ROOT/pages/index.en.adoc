@@ -13,7 +13,7 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 
 === PHP
 * @gp has a link:https://packagist.org/packages/atgp/factur-x[factur-x library for PHP]
-* horstoeko has MIT licensed PHP projects for link::https://github.com/horstoeko/zugferd[ZUGFeRD], link::https://github.com/horstoeko/orderx[Order-X] and e.g. a link::https://github.com/horstoeko/zugferdvisualizer[Visualizer]
+* horstoeko has MIT licensed PHP projects for link:https://github.com/horstoeko/zugferd[ZUGFeRD], link:https://github.com/horstoeko/orderx[Order-X] and e.g. a link:https://github.com/horstoeko/zugferdvisualizer[Visualizer]
 
 === C++
 * link:https://www.ghostscript.com/[Ghostscript], in it's core a C++ library,  link:https://bugs.ghostscript.com/show_bug.cgi?id=696472[can be used in a way] that it actually produced proper PDF/A-3 Factur-X
