@@ -6,7 +6,7 @@
 Reading : as of 2025, Writing: as of 2027, for some as of 2028
 
 .Matrix © 2024 Andreas Pelekies validool.org
-image::Tabelle_Zeitlicher_Ablauf.svg[Matrix © 2024 Andreas Pelekies validool.org]
+image::https://validool.org/wp-content/uploads/2024/07/Folie2.png[Matrix © 2024 Andreas Pelekies validool.org]
 
 
 === When will B2G e-invoicing become mandatory in Germany
@@ -321,6 +321,19 @@ As far as I know, quantities and prices may have four digits (see theFactur-X sp
 be rounded to two-digit totals - and the sum of the items with the sameitems with the same VAT rate leads to the two-digit VAT amount for this rate.VAT amount for this rate. See also EN16931-1 chapter 6.5.12,
 where, interestingly, net prices are quoted in two digits.
 
+
+=== How do collective invoices work in Factur-X Extended?
+It's about the item attributes
+
+----
+<ram:BuyerOrderReferencedDocument>
+  <ram:IssuerAssignedID>ORDER84359</ram:IssuerAssignedID>
+  <ram:LineID>1</ram:LineID>
+</ram:BuyerOrderReferencedDocument>
+----
+
+IssuerAssignedID, i.e. the order, is only available *on item level* in extended, i.e. different items can refer to different orders.
+The official example is EXTENDED_InnergemeinschLieferungMehrereBestellungen.pdf from the ZUGFeRD Infopaket.
 
 === What is the difference between Factur-X and ZUGFeRD
 
