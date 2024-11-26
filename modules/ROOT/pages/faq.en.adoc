@@ -321,6 +321,9 @@ As far as I know, quantities and prices may have four digits (see theFactur-X sp
 be rounded to two-digit totals - and the sum of the items with the sameitems with the same VAT rate leads to the two-digit VAT amount for this rate.VAT amount for this rate. See also EN16931-1 chapter 6.5.12,
 where, interestingly, net prices are quoted in two digits.
 
+=== I dont have a delivery date
+
+If you send invoices in advance they may be of TypeCode 386 Prepayment invoice, in which case the delivery date is optional. The final invoices however, have to refer to the previous invoice, e.g. using  BuyerOrderReferencedDocument
 
 === How do collective invoices work in Factur-X Extended?
 It's about the item attributes
