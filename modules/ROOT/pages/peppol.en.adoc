@@ -1,0 +1,15 @@
+= Open-Source Libraries and Tools for Peppol
+== Servers
+ * link:https://github.com/oxaliscommunity[Oxalis]
+ * link:https://github.com/phax/phase4[Phase4]
+ * link:http://holodeck-b2b.org/download/[Holodeck B2B]
+ * link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus[Domibus]
+
+== Servers  
+ * link:https://github.com/phax/phoss-smp[A Open Source Service Metadata Publisher directory server]
+ * link:https://ec.europa.eu/digital-building-blocks/code/projects/EDELIVERY/repos/eessi-as4.net/browse[A .net AS4 server]
+  
+  
+== Validators 
+
+* link:https://github.com/phax/phive[A open source Peppol validator]  
