@@ -43,7 +43,7 @@ jobs:
       - name: Use URL for something
         run: find docs-site/build/site/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's|\[\[Download\]\]|${{ steps.artifact-upload-step.outputs.artifact-url }}|g'
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs-site/build/site
       - name: Deploy to GitHub Pages
