@@ -10,6 +10,7 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 === Python
 
  * Akretion's link:https://github.com/akretion/factur-x[factur-x] is a BSD-licensed library.
+ * Raphael Michel link:https://github.com/pretix/python-drafthorse[created a APL] library for python.
 
 === PHP
 * @gp has a link:https://packagist.org/packages/atgp/factur-x[factur-x library for PHP]
