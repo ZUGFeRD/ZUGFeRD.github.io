@@ -21,6 +21,7 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 
 === .net/ C#
 * link:https://github.com/stephanstapel/ZUGFeRD-csharp[ZUGFeRD-csharp], library for .net/C#
+* link:https://github.com/ArtifexSoftware/Ghostscript.NET/[Ghostscript .net]
 
 === Java
 * link:https://konik.io/[Konik] GPL Java and C# library for ZUGFeRD 1
