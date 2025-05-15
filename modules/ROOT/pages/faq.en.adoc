@@ -12,7 +12,7 @@ image::https://validool.org/wp-content/uploads/2024/07/Folie2.png[Matrix © 2024
 === How often does this change
 There are around 8 updates a year
 
-image::https://github.com/ZUGFeRD/ZUGFeRD.github.io/blob/master/modules/ROOT/images/image003.png[Slide © 2024 Andreas Pelekies validool.org]
+image::https://github.com/ZUGFeRD/ZUGFeRD.github.io/blob/master/modules/ROOT/images/image03.png[Slide © 2024 Andreas Pelekies validool.org]
 === When will B2G e-invoicing become mandatory in Germany
 On federal level, as of 1000€ it already is.
 Regional authorities have the following deadlines
