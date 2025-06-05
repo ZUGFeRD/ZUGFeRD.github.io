@@ -30,6 +30,9 @@ link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a
 === Delphi
 * link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi[library for Delphi]
 
+=== Ruby
+* link:https://github.com/halfbyte/ruby-secretariat[Secretariat] Library to generate ZUGFeRD XML in Ruby.
+
 == PDF tools
 === Creation
 
