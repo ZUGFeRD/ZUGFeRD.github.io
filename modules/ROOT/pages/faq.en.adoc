@@ -329,6 +329,26 @@ where, interestingly, net prices are quoted in two digits.
 
 If you send invoices in advance they may be of TypeCode 386 Prepayment invoice, in which case the delivery date is optional. The final invoices however, have to refer to the previous invoice, e.g. using  BuyerOrderReferencedDocument
 
+=== I dont have a VAT ID
+You can still send electronic invoices using a ID without a scheme. This needs to be bilaterally agreed but if you put your tax ID and repeat it, there is some hope that your sender understands and agrees.
+
+----
+      <ram:SellerTradeParty>
+        <ram:ID>12 123 123 123</ram:ID>
+        <ram:Name>Bei Spiel GmbH</ram:Name>
+        <ram:PostalTradeAddress>
+          <ram:PostcodeCode>12345</ram:PostcodeCode>
+          <ram:LineOne>Ecke 12</ram:LineOne>
+          <ram:CityName>Stadthausen</ram:CityName>
+          <ram:CountryID>DE</ram:CountryID>
+        </ram:PostalTradeAddress>
+        <ram:SpecifiedTaxRegistration>
+          <ram:ID schemeID="FC">12 123 123 123</ram:ID>
+        </ram:SpecifiedTaxRegistration>
+      </ram:SellerTradeParty>
+----
+However, this may not work long, a VAT ID may be required for a later CTC, so the recommendation is to request a VAT ID. Or at least a EBID-Number, link:https://unternehmensverzeichnis.org[unternehmensverzeichnis.org] assigns them for free (SchemeID 0189).
+
 === How do collective invoices work in Factur-X Extended?
 It's about the item attributes
 
