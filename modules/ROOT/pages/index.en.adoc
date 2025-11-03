@@ -3,7 +3,7 @@
 
 link:imprint.adoc[Inofficial] page on free Factur-X, Order-X and Deliver-X (and XRechnung) libraries and tools.
 
-link:https://www.ferd-net.de/standards/zugferd/index.html[ZUGFeRD]/Factur-X is a standard to embed machine readable XML in electronic invoice PDFs.
+link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard to embed machine readable XML in electronic invoice PDFs.
 
 == Libraries
 
