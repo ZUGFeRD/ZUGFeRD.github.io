@@ -27,6 +27,9 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * link:https://konik.io/[Konik] GPL Java and C# library for ZUGFeRD 1
 * link:https://mustangproject.org/[Mustang] is an APL Java and link:https://mustangproject.org/net/[.net] library for ZUGFeRD 1 and 2(=Factur-X) and a command-line tool to extract, combine and validate. It's open-source link:https://github.com/ZUGFeRD/mustangserver[REST API] has been continued link:https://mustangproject.org/server/[commercially].
 
+=== Typescript
+* link:https://www.guido-flohr.net/creating-electronic-invoices-with-free-and-open-source-software/[E-invoice EU] Typescript and CLI 
+
 === Delphi
 * link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi[library for Delphi]
 
