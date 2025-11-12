@@ -11,6 +11,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 
  * Akretion's link:https://github.com/akretion/factur-x[factur-x] is a BSD-licensed library.
  * Raphael Michel link:https://github.com/pretix/python-drafthorse[created a APL] library for python.
+ * Early dev of FX parsing and generation library https://github.com/zfutura/pycheval
 
 === PHP
 * @gp has a link:https://packagist.org/packages/atgp/factur-x[factur-x library for PHP]
@@ -26,6 +27,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 === Java
 * link:https://konik.io/[Konik] GPL Java and C# library for ZUGFeRD 1
 * link:https://mustangproject.org/[Mustang] is an APL Java and link:https://mustangproject.org/net/[.net] library for ZUGFeRD 1 and 2(=Factur-X) and a command-line tool to extract, combine and validate. It's open-source link:https://github.com/ZUGFeRD/mustangserver[REST API] has been continued link:https://mustangproject.org/server/[commercially].
+* Writing XRechnung in Java https://github.com/codebarista-de/gallop
 
 === Typescript
 * link:https://www.guido-flohr.net/creating-electronic-invoices-with-free-and-open-source-software/[E-invoice EU] Typescript and CLI 
@@ -66,6 +68,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
   ** Andreas Rudolphs link:https://github.com/OpenIndex/ZUGFeRD-Manager/[ZUGFeRD-Manager] and 
   ** Robert Grosskopfs link:https://www.familiegrosskopf.de/robert/index.php?&Inhalt=xrechnung[LibreOffice Base] XRechnung
 * link:https://github.com/akretion/factur-x-libreoffice-extension[Factur-X extension for LibreOffice] is a LibreOffice extension to generate Factur-X invoices from LibreOffice Calc published under the GPL licence (link:https://www.youtube.com/watch?v=ldD-1W8yIv0[video tutorial])
+*  The Gate (g8) is a factur-x producing android app   https://github.com/gatesuperapp/g8-invoicing 
 
 === ZUGFeRD/Factur-X Consuming
 * Open-source homebanking application: link:https://www.willuhn.de/products/hibiscus/[Hibiscus]
