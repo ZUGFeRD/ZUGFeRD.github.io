@@ -3,7 +3,7 @@
  * link:https://github.com/oxaliscommunity[Oxalis]
  * link:https://github.com/phax/phase4[Phase4]
  * link:http://holodeck-b2b.org/download/[Holodeck B2B]
- * link:https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Domibus[Domibus]
+ * link:https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467110244/Domibus[Domibus]
 
 == Servers  
  * link:https://github.com/phax/phoss-smp[A Open Source Service Metadata Publisher directory server]
