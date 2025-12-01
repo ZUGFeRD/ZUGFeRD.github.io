@@ -87,5 +87,6 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * Auratech published a tool cii to ubl and vice versa https://github.com/Auratechcom/converter_ubl_cii_invoice_xml
 * There is a link:https://github.com/jcthiele/OpenXRechnungToolbox[OpenXRechnungToolbox] to visualize and validate XRechnung and Leitweg-IDs
 * There is an interesting link:https://github.com/svanteschubert/en16931-data-extractor[parser] for the EN16931 specification documents
+* And there is a MIT licensed parser for the Factur-X/ZUGFeRD Spec https://github.com/S2-Industries/FactoorSharp.FacturXDocumentationParser publishing to http://doc.factoorsharp.com/
 * xpdf has a interesting link:https://www.xpdfreader.com/pdfdetach-man.html[pdfdetach] command line tool to extract the XML from the PDF
 * There is a link:https://github.com/ZUGFeRD/corpus/tree/master/XML-Rechnung[corpus] of samples, with german B2B samples in the XML-Rechnung subdirectory
