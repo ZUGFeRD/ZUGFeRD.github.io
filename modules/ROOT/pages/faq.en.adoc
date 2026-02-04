@@ -388,6 +388,11 @@ There are PDF/A validators like the open-source link:https://verapdf.org[Verapdf
 
 An especially wild example of usual non-PDF/A-PDF is link:https://pocorgtfo.hacke.rs/pocorgtfo16.pdf[Proof of concept or get the fuck out of here 0x16] which is "valid" "as a PDF document, a ZIP archive, and a Bash script that runs a Python webserver which hosts Kaitai Struct’s WebIDE which, allowing you to view the file’s own annotated bytes".
 
+=== What is the gross price?
+
+The gross price in CII, UBL and EN16931 is without VAT, i.e. it is the net price without allowances and charges, more of a list price. Refer to e.g. link:https://xeinkauf.de/app/uploads/2024/07/302-XRechnung-2024-06-20.pdf[XRechnung spec] pg 95 The item price without VAT before allowances [because EN16931 knows no item charges] ("Der Postenpreis ohne Umsatzsteuer vor Abzug des Postenpreisrabatts").
+
+
 === Where can I ask questions?
 
 Apart from Stackoverflow there is
