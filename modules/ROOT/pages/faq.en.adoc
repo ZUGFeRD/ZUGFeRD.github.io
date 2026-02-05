@@ -244,6 +244,10 @@ elektronische Rechnung Deutschland], the abbreviation remained.
 
 
 
+=== UNits: Hectar/"Hektar"
+
+The unit for Hectar is H18 square hectometre
+
 === Netto
 
 §6.4.3.1.1
