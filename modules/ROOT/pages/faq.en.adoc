@@ -345,6 +345,15 @@ Please note that a non-empty ApplicableHeaderTradeDelivery block remains require
 </ram:ApplicableHeaderTradeDelivery>
 ----
 
+=== How to identify specific stores as sale location
+ German "Filialnummer/Niederlassungsnummer" : 
+
+BT-46 , und/oder BT-46-0 (GLN – Rewe, Kaufland, Edeka etc.) or 
+
+BT-71 , und oder BT-71-0 (GLN – Rewe, Kaufland, Edeka etc.)
+
+=== How to specify vendor product categories
+German "Warengruppe/Artikelgruppe"   - BT-158  -  Code „CG“
 
 === I dont have a VAT ID
 You can still send electronic invoices using a ID without a scheme. This needs to be bilaterally agreed but if you put your tax ID and repeat it, there is some hope that your sender understands and agrees.
