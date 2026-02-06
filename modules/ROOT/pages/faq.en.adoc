@@ -333,6 +333,19 @@ where, interestingly, net prices are quoted in two digits.
 
 If you send invoices in advance they may be of TypeCode 386 Prepayment invoice, in which case the delivery date is optional. The final invoices however, have to refer to the previous invoice, e.g. using  BuyerOrderReferencedDocument
 
+Please note that a non-empty ApplicableHeaderTradeDelivery block remains required. The workaround is to duplicate the country ID of the recipient in ShipToTradeParty as follows:
+
+----
+<ram:ApplicableHeaderTradeDelivery>
+  <ram:ShipToTradeParty>
+    <ram:PostalTradeAddress>
+      <ram:CountryID>DE</ram:CountryID>
+    </ram:PostalTradeAddress>
+  </ram:ShipToTradeParty>
+</ram:ApplicableHeaderTradeDelivery>
+----
+
+
 === I dont have a VAT ID
 You can still send electronic invoices using a ID without a scheme. This needs to be bilaterally agreed but if you put your tax ID and repeat it, there is some hope that your sender understands and agrees.
 
