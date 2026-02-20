@@ -44,6 +44,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * link:https://www.ghostscript.com/[Ghostscript] can also be used to create PDF/A files from ordinary PDF
 * link:https://github.com/itext/rups/releases[iText RUPS] can be used, along with a good hex editor to inspect the PDF internal structure, or a Windows-only link:https://github.com/Uzi-Granot/PdfFileAnaylyzer[alternative]
 * link:https://mupdf.com/[MuPDF] for windows and linux, mutools show can display simple internal structures
+* loca Open source AI/invoice recognition and ZUGFeRD/FX review+generation https://github.com/kyr0/easy-erechnung/
 * Open source AI/invoice recognition link:https://github.com/naiveHobo/InvoiceNet[InvoiceNet]
 * Open source OCR/pattern based invoice recognition link:https://github.com/invoice-x/invoice2data/[invoice2data]
 
