@@ -238,7 +238,7 @@ therefore corresponds to Factur-X 1.
 
 After Order-X and after the start but before the completion of the work (on
 delivery bills, called Deliver-X), ZUGFeRD became a format family: the term
-The term changed to the plural, link:https://www.ferd-net.de/aktuelles/meldungen/rueckblick-auf-die-sitzung-des-ferd-plenums.html[Zentrale User Guides Forum
+The term changed to the plural, link:https://web.archive.org/web/20240831104010/https://www.ferd-net.de/aktuelles/meldungen/rueckblick-auf-die-sitzung-des-ferd-plenums.html[Zentrale User Guides Forum
 elektronische Rechnung Deutschland], the abbreviation remained.
 
 
