@@ -52,7 +52,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 === Validators
 * link:https://services.fnfe-mpe.org[FNFE] uses link:https://github.com/akretion/factur-x-validator[a odoo plugin] which is based on VeraPDF and the CEN Schematron
 * The link:https://www.zugferd-community.net/de/open_community/validation[ZUGFeRD-community] online validation is based on link:https://github.com/ZUGFeRD/mustangproject/[Mustang] and embeds VeraPDF and the CEN Schematron as well
-* Philip Helgers open-sourve-validator link:https://github.com/phax/phive[Phive] can validate almost any invoice XML, including XRechnung, unfortunately not covering PDF-hybrid formats
+* Philip Helgers open-sourve-validator link:https://github.com/phax/phive[Phive] can validate almost any invoice XML, including XRechnung, unfortunately not covering PDF-hybrid formats. Plus he has published the link:https://github.com/phax/kaltblut[Kaltblut] Factur-X/ZUGFeRD Validator
 * link:http://verapdf.org/[VeraPDF], validates PDF-A,
 * link:https://exiftool.org/[Exiftool] allows to quickly check PDF/A meta data,
 
