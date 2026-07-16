@@ -392,6 +392,9 @@ The official example is EXTENDED_InnergemeinschLieferungMehrereBestellungen.pdf 
 
 Factur-X 1.0.50 is the French and international name of ZUGFeRD2.1 The Factur-X file name (factur-x.xml) and metadata (RDF metadatawith the namespace prefix "fx") are preferred since ZUGFeRD 2.1.
 
+=== Where do I refer to the DeliveryNote
+
+A reference to the delivery note (german "Lieferschein") is actually not foreseen in EN16931, it only supports Despatch Advice ("Lieferavis") in BT-16, i.e. DespatchAdviceReferencedDocument/IssuerAssignedID. Structured Delivery Notes are only possible in Factur-X/ZUGFeRD Extended with  BT-X-202 on document- (DeliveryNoteReferencedDocument/IssuerAssignedID) or with BT-X-92 (DeliveryNoteReferencedDocument/IssuerAssignedID) on line level.
 
 === What is the difference between PDF and PDF/A
 
