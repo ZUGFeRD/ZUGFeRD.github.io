@@ -26,7 +26,8 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 
 === Java
 * link:https://konik.io/[Konik] GPL Java and C# library for ZUGFeRD 1
-* link:https://mustangproject.org/[Mustang] is an APL Java and link:https://mustangproject.org/net/[.net] library for ZUGFeRD 1 and 2(=Factur-X) and a command-line tool to extract, combine and validate. It's open-source link:https://github.com/ZUGFeRD/mustangserver[REST API] has been continued link:https://mustangproject.org/server/[commercially].
+* link:https://github.com/jcodeforge/invoice4j[invoice4j] is a modern permissive library for Java
+* link:https://mustangproject.org/[Mustang] is a old fashioned Java library and command line tool to extract, combine and validate and convert. It's open-source link:https://github.com/ZUGFeRD/mustangserver[REST API] has been continued link:https://mustangproject.org/server/[commercially].
 * Writing XRechnung in Java https://github.com/codebarista-de/gallop
 
 === Typescript
