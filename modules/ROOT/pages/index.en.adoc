@@ -32,6 +32,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 
 === Typescript
 * link:https://www.guido-flohr.net/creating-electronic-invoices-with-free-and-open-source-software/[E-invoice EU] Typescript and CLI 
+* link:https://github.com/attestwire/en16931[@attestwire/en16931] TypeScript library (MIT, zero dependencies) to validate and generate EN 16931 XML: XRechnung in UBL and CII, Peppol BIS 3, and the Factur-X/ZUGFeRD CII payload. Reads the XML out of a Factur-X PDF; does not write the PDF.
 
 === Delphi
 * link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi[library for Delphi]
