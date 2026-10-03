@@ -248,3 +248,9 @@ https://blog.eight02.com/2011/05/validating-xml-with-iso-schematron-on.html
 === Can I use any PDF as basis for a ZUGFeRD/Factur-X
 ZUGFeRD is based on archivable (PDF/A) PDFs that embed all the data required fordata required for display, such as fonts.A free
 possibility to convert "normal" PDF files is, for example, Ghostscript.Ghostscript.
+
+
+=== Open Source Tools & Libraries
+
+* link:https://github.com/ZUGFeRD/mustangproject[Mustangproject] - Reference Java library and validator for Factur-X / ZUGFeRD.
+* link:https://github.com/maxcomperatore/rubrol[Rubrol] - Open-source Rust HTTP sidecar and PDF engine using Typst for high-performance PDF/A-3b rendering and Factur-X XML embedding.
