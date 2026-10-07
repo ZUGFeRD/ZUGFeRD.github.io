@@ -331,6 +331,10 @@ where, interestingly, net prices are quoted in two digits.
 
 === I dont have a delivery date
 
+In germany you usually need a structured delivery date:
+  § 14 Abs. 4 Satz 1 Nr. 6 UStG requires the delivery date has to be there and the link:https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2025-10-15-einfuehrung-obligatorische-e-rechnung.pdf?__blob=publicationFile&v=3[letter of the BMF] p 5  changes the Umsatzsteuer-Anwendungserlass (link:https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/Umsatzsteuer-Anwendungserlass-aktuell.pdf?__blob=publicationFile&v=46 mentions[UStAE]) on page 550 accordingly.
+
+
 If you send invoices in advance they may be of TypeCode 386 Prepayment invoice, in which case the delivery date is optional. The final invoices however, have to refer to the previous invoice, e.g. using  BuyerOrderReferencedDocument
 
 Please note that a non-empty ApplicableHeaderTradeDelivery block remains required. The workaround is to duplicate the country ID of the recipient in ShipToTradeParty as follows:
