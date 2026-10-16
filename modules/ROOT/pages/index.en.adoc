@@ -12,6 +12,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
  * Akretion's link:https://github.com/akretion/factur-x[factur-x] is a BSD-licensed library.
  * Raphael Michel link:https://github.com/pretix/python-drafthorse[created a APL] library for python.
  * Early dev of FX parsing and generation library https://github.com/zfutura/pycheval
+ * link:https://github.com/Fintom8/fintom8-document-anonymizer[Fintom8 Document Anonymizer]: automated PII and Sensitive Data Masking for pdf invoices & e-invoices.
 
 === PHP
 * @gp has a link:https://packagist.org/packages/atgp/factur-x[factur-x library for PHP]
