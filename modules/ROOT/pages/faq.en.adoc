@@ -122,6 +122,7 @@ proprietary also some open-sourced
 * The link:https://www.zugferd-community.net/de/open_community/validation[ZUGFeRD community] uses the link:https://mustangproject.org[Mustang] engine
 * link:https://services.fnfe-mpe.org/[FNFE] uses a link:https://github.com/akretion/factur-x-validator[odoo based engine] and
 * link:https://ecosio.com/de/peppol-und-xml-dokumente-online-validieren/[Ecosio] (XML only) uses link:https://github.com/phax/phive[PHIVE] as an engine
+* link:https://normapi.com/en/validator[NormAPI] (XRechnung and ZUGFeRD/Factur-X, also as an HTTP API) uses the link:https://github.com/itplr-kosit/validator[KoSIT validator]
 
 For semantic correctness you may want to refer to a link:index.adoc#_display[viewer]
 
