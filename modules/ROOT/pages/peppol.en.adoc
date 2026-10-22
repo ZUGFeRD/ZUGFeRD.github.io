@@ -1,4 +1,9 @@
 = Open-Source Libraries and Tools for Peppol
+
+== Applications
+
+* link:https://letspeppol.org/[Let's Peppol] is an MIT-licensed web application for sending and receiving invoices over the Peppol network, with a free hosted service for Belgian businesses (link:https://github.com/letspeppol/letspeppol[source code]).
+
 == Servers
  * link:https://github.com/oxaliscommunity[Oxalis]
  * link:https://github.com/phax/phase4[Phase4]
