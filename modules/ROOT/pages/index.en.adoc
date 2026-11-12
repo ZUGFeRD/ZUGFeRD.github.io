@@ -91,7 +91,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * Philip Helgers XSLT based https://github.com/phax/ph-redact
 
 == Miscellaneous
-* link:http://4s4u.de/additional_data[Additional data] is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices (e.g. the invoice is for kilometres and the additional data contains the amount of miles)
+* link:http://4s4u.de/additional_data[Additional data] is a python project to support extensions for certain industries like logistics, adding additional information to structured invoices 
 * Swiss army knife link:https://github.com/AgID/EeISI-mapper/[conversion tool], use e.g. it's commandline tool EIGOR to convert interchangably between CII, UBL and FatturaPA
 * Philip Helger published a link:https://github.com/phax/en16931-cii2ubl[java library to convert UN/CEFACT CII to UBL]
 * Auratech published a tool cii to ubl and vice versa https://github.com/Auratechcom/converter_ubl_cii_invoice_xml
