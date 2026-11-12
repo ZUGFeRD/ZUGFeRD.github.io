@@ -1,3 +1,8 @@
 = Contributors 
 
-Thanks to everyone contributing to this page and despite the fact that this is an inofficial page (the official ZUGFeRD/Factur-X standard lives at link:https://www.ferd-net.de/standards/zugferd[ferd-net]) thank you very much to link:https://boring.tax/[boring.legal] for their support!
+Thanks to everyone contributing to this page and despite the fact that this is an inofficial page (the official ZUGFeRD/Factur-X standard lives at link:https://www.ferd-net.de/standards/zugferd[ferd-net]) thank you very much to link:https://boring.tax/[boring.legal] 
+ for their
+
+image::https://boring.tax/_astro/bt.DU-y6EId_w25BT.webp[Boring Tax, link=https://boring.tax/]
+
+support!
