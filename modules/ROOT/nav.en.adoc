@@ -2,5 +2,6 @@
 * xref:faq.en.adoc[]
 * xref:peppol.en.adoc[Peppol]
 * xref:syllabus.en.adoc[]
+* xref:contributors.en.adoc[]
 * xref:history.en.adoc[]
 * xref:imprint.en.adoc[]
