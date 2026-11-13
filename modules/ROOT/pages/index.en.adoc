@@ -18,6 +18,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * @gp has a link:https://packagist.org/packages/atgp/factur-x[factur-x library for PHP]
 * horstoeko has MIT licensed PHP projects for link:https://github.com/horstoeko/zugferd[ZUGFeRD], link:https://github.com/horstoeko/orderx[Order-X] and e.g. a link:https://github.com/horstoeko/zugferdvisualizer[Visualizer]
 * link:https://github.com/dealerweb/einvoice[dealerweb/einvoice] MIT licensed PHP library (pure PHP, no Java) to read, validate, visualize and create XRechnung, ZUGFeRD/Factur-X and Peppol BIS invoices in UBL and CII. Validates with the XML schemas and the Schematron rules of EN 16931, XRechnung and ZUGFeRD/Factur-X, and with the Peppol BIS 3.0 rules in an own implementation; reads the XML out of a ZUGFeRD/Factur-X PDF and writes the PDF/A-3 with the XML embedded.
+* link:https://github.com/Quittio/quittio[Quittio] MIT licensed PHP library (PHP 8.3+, optional Laravel integration) to create, read and validate ZUGFeRD/Factur-X, XRechnung, UBL and Peppol BIS invoices based on EN 16931. Writes the PDF/A-3 with the XML embedded, validates with its own implementation of the EN 16931 and XRechnung business rules and, optionally, with the KoSIT validator and veraPDF. Documentation at link:https://quittio.dev/docs[quittio.dev].
 
 === C++
 * link:https://www.ghostscript.com/[Ghostscript], in it's core a C++ library,  link:https://bugs.ghostscript.com/show_bug.cgi?id=696472[can be used in a way] that it actually produced proper PDF/A-3 Factur-X
