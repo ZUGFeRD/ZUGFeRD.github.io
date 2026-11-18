@@ -18,3 +18,4 @@
 == Validators 
 
 * link:https://github.com/phax/phive[A open source Peppol validator]  
+* link:https://github.com/kalmwerk/peppol-ubl-check[Peppol UBL check] MIT licensed GitHub Action and Node.js command-line tool that checks UBL and CII invoice XML offline against 324 EN 16931, Peppol BIS Billing 3.0, XRechnung and Dutch SI-UBL 2.0 rules, with the rule ID, line and a fix for each error. On the 1,919 official CEN and Peppol unit-test cases it gives the same verdict as the official Schematron for every rule it checks (1,246 verdicts compared, 0 different, see link:https://github.com/kalmwerk/peppol-ubl-check/blob/main/conformance.json[conformance.json]); it does not check the CEN syntax-binding rules, most national rules, the XML schema or PDFs.
