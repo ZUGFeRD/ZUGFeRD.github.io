@@ -34,7 +34,8 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * Writing XRechnung in Java https://github.com/codebarista-de/gallop
 
 === Typescript
-* link:https://www.guido-flohr.net/creating-electronic-invoices-with-free-and-open-source-software/[E-invoice EU] Typescript and CLI 
+* link:https://www.guido-flohr.net/creating-electronic-invoices-with-free-and-open-source-software/[E-invoice EU] Typescript and CLI
+* link:https://node-zugferd.jsolano.de/[node-zugferd] A comprehensive TypeScript library for creating, validating, and parsing ZUGFeRD/Factur-X documents, currently supporting CII (Cross Industry Invoice) only.
 * link:https://github.com/attestwire/en16931[@attestwire/en16931] TypeScript library (MIT, zero dependencies) to validate and generate EN 16931 XML: XRechnung in UBL and CII, Peppol BIS 3, and the Factur-X/ZUGFeRD CII payload. Reads the XML out of a Factur-X PDF; does not write the PDF.
 * link:https://github.com/docfaro-com/eu-einvoice-reader[eu-einvoice-reader] TypeScript library (MIT) that parses XRechnung and ZUGFeRD/Factur-X (CII), Peppol BIS/UBL 2.1, FatturaPA, Facturae and KSeF FA(3) invoice XML into plain JavaScript objects, in the browser and in Node.js. It detects the format, pre-checks a subset of the EN 16931 and XRechnung business rules and opens .p7m (CAdES) and .xsig (XAdES) files.
 
