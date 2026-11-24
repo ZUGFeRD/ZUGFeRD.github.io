@@ -87,6 +87,7 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * Ultramarin Viewer is a link:https://www.ultramarinviewer.de/[freeware viewer] for XRechnung based on these XSLTs, additionally
 * OpenXRechnungToolbox is an link:https://github.com/jcthiele/OpenXRechnungToolbox[open source cross platform XRechnung viewer] as well as
 * Quba-Viewer, a link:https://quba-viewer.org[open source cross platform multi format viewer] (also displaying ZUGFeRD/Factur-X PDF and XML)
+* Intaj E-Invoice Viewer, a link:https://intaj.shop/tools/e-invoice-viewer/[free online viewer] for XRechnung (UBL and CII), UBL 2.1 and ZUGFeRD/Factur-X files. It shows the invoice as a readable document to print or save as PDF; the file is read in the browser and never uploaded. Viewing only, no validation
 
 === Redaction
 * Andreas Starkes original little python utility to link:https://github.com/ZUGFeRD/einvoice-anonymizer[remove personal data/anonymize] invoices 
