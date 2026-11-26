@@ -39,6 +39,9 @@ link:https://www.ferd-net.de/standards/zugferd[ZUGFeRD]/Factur-X is a standard t
 * link:https://github.com/attestwire/en16931[@attestwire/en16931] TypeScript library (MIT, zero dependencies) to validate and generate EN 16931 XML: XRechnung in UBL and CII, Peppol BIS 3, and the Factur-X/ZUGFeRD CII payload. Reads the XML out of a Factur-X PDF; does not write the PDF.
 * link:https://github.com/docfaro-com/eu-einvoice-reader[eu-einvoice-reader] TypeScript library (MIT) that parses XRechnung and ZUGFeRD/Factur-X (CII), Peppol BIS/UBL 2.1, FatturaPA, Facturae and KSeF FA(3) invoice XML into plain JavaScript objects, in the browser and in Node.js. It detects the format, pre-checks a subset of the EN 16931 and XRechnung business rules and opens .p7m (CAdES) and .xsig (XAdES) files.
 
+=== Rust
+* link:https://github.com/philipp-berger/zugferd-rust[zugferd-rust] is an Apache-2.0-licensed Rust library to generate and parse ZUGFeRD/Factur-X CII and XRechnung CII/UBL XML, and embed or extract invoice XML in PDFs. It provides XSD validation via libxml2, partial EN16931 Schematron validation (XPath 1.0 rules), and PDF/A-3b structural checks.
+
 === Delphi
 * link:https://github.com/LandrixSoftware/ZUGFeRD-for-Delphi[library for Delphi]
 
